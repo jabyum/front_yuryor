@@ -1,0 +1,1516 @@
+{
+  "header": {
+    "home": "Bosh sahifa",
+    "about": "Markaz haqida",
+    "services": "Xizmatlar",
+    "for_migrants": "Migrantlar uchun",
+    "for_employers": "Ish beruvchilar uchun",
+    "useful_info": "Foydali ma'lumotlar",
+    "blog": "Blog",
+    "contacts": "Kontaktlar"
+  },
+  "footer": {
+    "support": "YurYor — O'zbekistonlik mehnat migrantlarini Bolgariyada qo'llab-quvvatlash",
+    "services": "Xizmatlar",
+    "all_services": "Barcha xizmatlar",
+    "about_center": "Markaz haqida",
+    "about_us": "Biz haqimizda",
+    "team": "Jamoa",
+    "partners": "Hamkorlar",
+    "useful_info": "Foydali ma'lumotlar",
+    "handbook": "Qo'llanma",
+    "blog": "Blog",
+    "faq": "Savol-javob",
+    "contact_us": "Biz bilan bog'laning",
+    "all_rights_reserved": "© 2025 YurYor. Barcha huquqlar himoyalangan.",
+    "privacy_policy": "Maxfiylik siyosati",
+    "terms_of_use": "Foydalanish shartlari"
+  },
+  "cta": {
+    "questions": "Savollaringiz bormi?",
+    "call": "Qo'ng'iroq qilish",
+    "all_contacts": "Barcha kontaktlar",
+    "contact_us": "Bizga yozing",
+    "leave_request": "So'rov qoldiring va mutaxassisimiz siz bilan yaqin vaqt ichida bog'lanadi",
+    "submit_request": "So'rov yuborish"
+  },
+  "forms": {
+    "your_name": "Ismingiz",
+    "phone": "Telefon raqami",
+    "email": "Email",
+    "topic": "Murojaat mavzusi",
+    "select_topic": "Mavzuni tanlang",
+    "visa_issues": "Viza masalalari",
+    "employment": "Ishga joylashish",
+    "documents": "Hujjatlarni rasmiylashtirish",
+    "medical_insurance": "Tibbiy sug'urta",
+    "for_employers": "Ish beruvchilar uchun",
+    "other": "Boshqa",
+    "message": "Xabar",
+    "agreement": "Men shaxsiy ma'lumotlarni qayta ishlashga roziman",
+    "required": "majburiy"
+  },
+  "index": {
+    "hero": {
+      "title": "YurYor — ishonchli qo'llab-quvvatlash",
+      "subtitle": "Sizga xotirjam ishlash va ishonchli yashash imkonini beramiz",
+      "migrant_button": "Men migrantman – yordam kerak",
+      "employer_button": "Men ish beruvchiman – vakansiya joylashtirish"
+    },
+    "about_brief": {
+      "title": "YurYor qo'llab-quvvatlash markazi haqida",
+      "intro": "«YurYor» (o'zbek tilidan tarjimasi — «Vatandoshlarni qo'llab-quvvatlash») — bu Bolgariyada ishlayotgan yoki ishga joylashishni rejalashtirgan O'zbekiston fuqarolariga har tomonlama yordam ko'rsatish uchun tashkil etilgan zamonaviy axborot-maslahat markazi.",
+      "stats": {
+        "clients": "Mijozlar",
+        "clients_count": "3000+",
+        "clients_desc": "Allaqachon bizning yordamimizni olishgan",
+        "offices": "Ofislar",
+        "offices_count": "2",
+        "offices_desc": "Toshkent va Bolgariyada",
+        "support": "Qo'llab-quvvatlash",
+        "support_count": "24/7",
+        "support_desc": "Ishga joylashishning barcha bosqichlarida",
+        "employment": "Muvaffaqiyatli ishga joylashish",
+        "employment_count": "1500+",
+        "employment_desc": "Muvaffaqiyatli ishga joylashishlar"
+      },
+      "learn_more": "Biz haqimizda ko'proq bilish"
+    },
+    "services_overview": {
+      "title": "Biz qanday yordam beramiz",
+      "document_service": "Hujjatlarni rasmiylashtirish",
+      "document_desc": "Viza, yashash uchun ruxsatnoma va ishga joylashish uchun barcha hujjatlar to'plamini to'g'ri rasmiylashtirishga yordam beramiz",
+      "insurance_service": "Tibbiy sug'urta",
+      "insurance_desc": "Viza uchun va Bolgariyada ishlash paytida sug'urta polislarini rasmiylashtiramiz",
+      "support_service": "Maslahat va qo'llab-quvvatlash",
+      "support_desc": "Barcha bosqichlarda huquqiy, til va maishiy yordam ko'rsatamiz",
+      "travel_service": "Sayohatni tashkil etish",
+      "travel_desc": "Chipta bron qilish va ish joyiga transport xizmatlarini tashkil etishda yordam beramiz",
+      "all_services": "Barcha xizmatlar"
+    },
+    "testimonials": {
+      "title": "Mijozlarimizning izohlari",
+      "testimonial1": {
+        "text": "\"YurYor yordamida barcha hujjatlarni tez rasmiylashtirib, Bolgariyada yaxshi ish topdim. Markaz xodimlari menga barcha bosqichlarda hamrohlik qildilar va yangi joyga moslashishda yordam berdilar. Professionallik uchun rahmat!\"",
+        "author": "Alisher Karimov",
+        "position": "Varna shahrida ishlaydi"
+      },
+      "testimonial2": {
+        "text": "\"Bolgariyada hujjatlar bilan muammo yuzaga kelganda markazga murojaat qildim. YurYor xodimlari vaziyatni tez hal qilishda yordam berdilar va barcha savollar bo'yicha maslahat berdilar. Endi barcha tanishlarimga tavsiya qilaman!\"",
+        "author": "Lola Tashmatova",
+        "position": "Sofiya shahrida ishlaydi"
+      },
+      "testimonial3": {
+        "text": "\"Bolgar kompaniyasining vakili sifatida men YurYor bilan hamkorlikdan juda mamnunman. Ular bizga O'zbekistondan malakali xodimlarni topishda yordam berishdi va ishga qabul qilish jarayonida to'liq huquqiy yordam ko'rsatishdi. Ikkinchi yildir ishlaymiz!\"",
+        "author": "Ivan Petrov",
+        "position": "HR-menejer, \"BolgarStroy\" kompaniyasi"
+      }
+    },
+    "blog_preview": {
+      "title": "Blogimizdan foydali maqolalar",
+      "post1": {
+        "date": "15 aprel 2025",
+        "title": "Bolgariyaga muvaffaqiyatli moslashish uchun 10 ta maslahat: vatandoshlar tajribasi",
+        "desc": "Allaqachon moslashish yo'lini bosib o'tgan va Bolgariyada muvaffaqiyatli ishlaydigan insonlarning amaliy tavsiyalari.",
+        "read_more": "Davomini o'qish"
+      },
+      "post2": {
+        "date": "10 aprel 2025",
+        "title": "Bolgariyada ishlash uchun tibbiy sug'urtani qanday to'g'ri rasmiylashtirish kerak",
+        "desc": "Barcha talablarga javob beradigan sug'urta polisini tanlash bo'yicha batafsil qo'llanma.",
+        "read_more": "Davomini o'qish"
+      },
+      "post3": {
+        "date": "5 aprel 2025",
+        "title": "Bolgariyaning viza siyosatidagi o'zgarishlar: 2025 yilda nimalarga e'tibor berish kerak",
+        "desc": "D turdagi viza va ishlash uchun ruxsatnoma olishning yangi qoidalari haqida dolzarb ma'lumot.",
+        "read_more": "Davomini o'qish"
+      },
+      "go_to_blog": "Blogga o'tish"
+    },
+    "consultation": {
+      "title": "Maslahat kerakmi?",
+      "desc": "Hoziroq so'rov qoldiring va mutaxassisimiz siz bilan yaqin vaqt ichida bog'lanadi",
+      "name": "Ismingiz",
+      "phone": "Telefon raqamingiz",
+      "email": "Emailingiz",
+      "request_type": "Murojaat maqsadi",
+      "option1": "Viza olish va Bolgariyada ishlash",
+      "option2": "O'zbekistondan xodimlar yollash",
+      "option3": "Umumiy maslahat",
+      "agreement": "Men shaxsiy ma'lumotlarni qayta ishlashga roziman",
+      "submit": "So'rov yuborish"
+    }
+  },
+  "about": {
+    "title": "«YurYor» markazi haqida",
+    "center_intro": {
+      "title": "O'zbekistondan Bolgariyaga mehnat migrantlarini qo'llab-quvvatlash markazi",
+      "desc1": "«YurYor» (o'zbek tilidan tarjimasi — «Vatandoshlarni qo'llab-quvvatlash») — bu Bolgariyada ishlayotgan yoki ishga joylashishni rejalashtirgan O'zbekiston fuqarolariga har tomonlama yordam ko'rsatish uchun tashkil etilgan zamonaviy axborot-maslahat markazi.",
+      "desc2": "Biz shuningdek, O'zbekistondan mehnat migrantlarini jalb qilishdan manfaatdor bo'lgan bolgar ish beruvchilari bilan hamkorlik qilamiz.",
+      "desc3": "Markaziy ofis Toshkentda joylashgan, shuningdek Bolgariyada vakolatxona mavjud. Jamoamiz 24/7 rejimida ishlaydi, barcha bosqichlarda huquqiy, til va maishiy yordam ko'rsatadi: hujjatlarni tayyorlashdan tortib yangi joyga moslashishgacha."
+    },
+    "directions": {
+      "title": "Bizning asosiy yo'nalishlarimiz:",
+      "direction1": "Viza va yashash uchun ruxsatnoma rasmiylashtirishga oid maslahatlar",
+      "direction2": "Hujjatlarni tayyorlash va tekshirishda yordam",
+      "direction3": "Tibbiy sug'urtani rasmiylashtirish",
+      "direction4": "Ishga joylashish va moslashishda ko'maklashish",
+      "direction5": "Favqulodda vaziyatlarda qo'llab-quvvatlash liniyasi",
+      "direction6": "Til va huquqiy yordam",
+      "note": "Biz texnologiyalar va insoniy yondashuvni birlashtiradi: messenjerlar, ijtimoiy tarmoqlar orqali ishlaymiz, shuningdek shaxsiy maslahatlar o'tkazamiz."
+    },
+    "mission": {
+      "title": "Markaz Missiyasi",
+      "desc1": "Bizning missiyamiz — Bolgariyada ishlayotgan yoki ishga joylashishni rejalashtirgan O'zbekiston fuqarolariga har tomonlama, qulay va professional yordam ko'rsatish. Biz vatandoshlarimizga har bir bosqichda hamrohlik qilamiz — ma'lumot olish va hujjatlarni tayyorlashdan tortib yangi muhitga moslashish va integratsiyalashuvgacha.",
+      "desc2": "Markaz migrantlar va ish beruvchilar o'rtasida ishonchli bog'lovchi bo'g'in bo'lib xizmat qiladi, o'zaro munosabatlarning shaffof, xavfsiz va adolatli tizimini yaratadi. Biz mehnat migrantlarining hayot sifatini oshirish, ularning manfaatlarini himoya qilish va uyg'un mehnat munosabatlarini shakllantirishga intilamiz.",
+      "values": {
+        "title": "Qadriyatlarimiz",
+        "value1": {
+          "title": "Halollik",
+          "desc": "Biz halol migratsiya va shaffof shartlar tarafdorimiz"
+        },
+        "value2": {
+          "title": "Professionallik",
+          "desc": "Barcha bosqichlarda malakali yordam"
+        },
+        "value3": {
+          "title": "Ishonchlilik",
+          "desc": "Mijozlarimiz uchun kelajakka ishonch"
+        }
+      }
+    },
+    "team": {
+      "title": "Bizning jamoamiz",
+      "intro": "Markazimizda tajribali mutaxassislar ishlaydi, ular mehnat migrantlariga har bir bosqichda: maslahatdan tortib Bolgariyada muvaffaqiyatli ishga joylashish va moslashishgacha yordam beradi.",
+      "member1": {
+        "name": "Alisher Rahimov",
+        "position": "Markaz direktori",
+        "bio": "Xalqaro mehnat migratsiyasi sohasida 10 yildan ortiq tajriba. Bolgariya va O'zbekiston mehnat qonunchiligi bo'yicha ekspert."
+      },
+      "member2": {
+        "name": "Nodira Karimova",
+        "position": "Bosh yurist",
+        "bio": "Viza va migratsiya huquqi bo'yicha mutaxassis. Hujjatlarni rasmiylashtirish va Bolgariyada qonuniylashtirish masalalari bo'yicha maslahat beradi."
+      },
+      "member3": {
+        "name": "Sardor Ismoilov",
+        "position": "HR-mutaxassis",
+        "bio": "Kadrlar tanlash va ishga joylashish bo'yicha ekspert. Nomzodlar va ish beruvchilar o'rtasidagi hamkorlikni muvofiqlashtiradi."
+      },
+      "member4": {
+        "name": "Georgiy Petrov",
+        "position": "Bolgariyada menejer",
+        "bio": "Bolgariyada vakolatxona rahbari. Joyida migrantlarga hamrohlik qilish va bolgar ish beruvchilari bilan o'zaro aloqa uchun javobgar."
+      }
+    },
+    "geography": {
+      "title": "Ish geografiyasi",
+      "intro": "«YurYor» markazi Toshkent va Bolgariyada ofislarga ega, bu bizga ishni samarali muvofiqlashtirish va barcha bosqichlarda qo'llab-quvvatlashni ta'minlash imkonini beradi.",
+      "office1": {
+        "title": "Toshkentdagi ofis",
+        "address": "Manzil: [Toshkentdagi ofis manzili]",
+        "phone": "Telefon: +998 77 310 55 66",
+        "hours": "Ish vaqti: Dush-Jum, 9:00-18:00"
+      },
+      "office2": {
+        "title": "Bolgariyada vakolatxona",
+        "address": "Manzil: [Bolgariyadagi ofis manzili]",
+        "phone": "Telefon: [Bolgariyadagi ofis telefoni]",
+        "hours": "Ish vaqti: Dush-Jum, 9:00-18:00"
+      }
+    },
+    "partners": {
+      "title": "Hamkorlar va sertifikatlar",
+      "intro": "Biz migratsiya va ishga joylashish sohasidagi etakchi kompaniyalar va tashkilotlar bilan hamkorlik qilamiz, bu bizga yuqori sifatli xizmatlarni ta'minlash imkonini beradi.",
+      "certificates": {
+        "title": "Bizning sertifikat va litsenziyalarimiz",
+        "cert1": "Faoliyatni amalga oshirish uchun litsenziya",
+        "cert2": "Migratsiya maslahatchilari assotsiatsiyasi a'zoligi",
+        "download": "PDF ni yuklab olish"
+      }
+    },
+    "cta": {
+      "title": "Savollaringiz bormi?",
+      "desc": "Bolgariyada ishga joylashish bilan bog'liq barcha masalalar bo'yicha maslahat olish uchun biz bilan qulay usulda bog'laning"
+    }
+  },
+  "contacts": {
+    "title": "Kontaktlar",
+    "intro": {
+      "title": "Biz bilan bog'laning",
+      "desc": "YurYor markazi sizga Bolgariyada ishga joylashish masalalarida yordam berishga doimo tayyor. Qulay aloqa usulini tanlang yoki Toshkent yoki Bolgariyadagi ofisimizga tashrif buyuring."
+    },
+    "contact_cards": {
+      "phones": {
+        "title": "Telefonlar",
+        "uzbekistan": "O'zbekiston",
+        "bulgaria": "Bolgariya",
+        "hours": "Ish vaqti: Dush-Jum, 9:00-18:00"
+      },
+      "email": {
+        "title": "Email",
+        "general": "Umumiy savollar",
+        "migrants": "Migrantlar uchun",
+        "employers": "Ish beruvchilar uchun"
+      },
+      "messengers": {
+        "title": "Messenjerlar",
+        "telegram": "Telegram",
+        "whatsapp": "WhatsApp",
+        "facebook": "Facebook"
+      },
+      "chatbots": {
+        "title": "Chat-botlar",
+        "telegram_bot": "Telegram bot",
+        "whatsapp_bot": "WhatsApp bot",
+        "note": "Botlar tez-tez beriladigan savollarga 24/7 rejimida javob beradi"
+      }
+    },
+    "offices": {
+      "title": "Bizning ofislarimiz",
+      "tashkent": {
+        "title": "Toshkentdagi ofis",
+        "address": "Manzil",
+        "phone": "Telefon",
+        "hours": "Ish vaqti",
+        "route": "Yo'nalish tuzish"
+      },
+      "bulgaria": {
+        "title": "Bolgariyada vakolatxona",
+        "address": "Manzil",
+        "phone": "Telefon",
+        "hours": "Ish vaqti",
+        "route": "Yo'nalish tuzish"
+      }
+    },
+    "contact_form": {
+      "title": "Bizga yozing",
+      "desc": "So'rov qoldiring va mutaxassisimiz siz bilan yaqin vaqt ichida bog'lanadi",
+      "name": "Ismingiz",
+      "phone": "Telefon",
+      "email": "Email",
+      "topic": "Murojaat mavzusi",
+      "select_topic": "Mavzuni tanlang",
+      "visa_issues": "Viza masalalari",
+      "employment": "Ishga joylashish",
+      "documents": "Hujjatlarni rasmiylashtirish",
+      "insurance": "Tibbiy sug'urta",
+      "employers": "Ish beruvchilar uchun",
+      "other": "Boshqa",
+      "message": "Xabar",
+      "agreement": "Men shaxsiy ma'lumotlarni qayta ishlashga roziman",
+      "send": "Xabarni yuborish"
+    },
+    "faq": {
+      "title": "Tez-tez so'raladigan savollar",
+      "question1": {
+        "q": "So'rovlarga qanchalik tez javob berasiz?",
+        "a": "Biz barcha so'rovlarni 24 soat ichida qayta ishlaymiz. Odatda javob ancha tezroq keladi — ish vaqtida o'rtacha 1-2 soat ichida. Shoshilinch savollar uchun messenjerlar yoki telefon aloqasidan foydalanishni tavsiya qilamiz."
+      },
+      "question2": {
+        "q": "Ofisga oldindan yozilmasdan tashrif buyurish mumkinmi?",
+        "a": "Ha, siz ofisimizga ish vaqtida oldindan yozilmasdan tashrif buyurishingiz mumkin. Biroq, qulay xizmat ko'rsatish va kutishning oldini olish uchun telefon yoki messenjerlar orqali tashrif vaqtini kelishib olishni tavsiya etamiz."
+      },
+      "question3": {
+        "q": "Agar ofisga kelolmasam, onlayn maslahat olish mumkinmi?",
+        "a": "Ha, biz video aloqa orqali (Zoom, Skype, WhatsApp, Telegram) onlayn maslahatlar o'tkazamiz. Bu ofisimizga shaxsan tashrif buyura olmaydigan insonlar uchun qulay variant. Onlayn maslahatga yozilish uchun biz bilan qulay usulda bog'laning."
+      },
+      "question4": {
+        "q": "Favqulodda vaziyatda qanday bog'lanish mumkin?",
+        "a": "Shoshilinch aloqa uchun quyidagi kanallardan foydalaning: Ishonch telefoni: +998 77 310 55 66 (24/7), Telegram: @yuryorbg (\"Shoshilinch\" belgisi bilan), WhatsApp: +998 77 310 55 66 (\"Shoshilinch\" belgisi bilan). Noish vaqtida navbatchi mutaxassis bog'lanadi, u favqulodda vaziyatlarda yordam beradi."
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "filters": {
+      "all_articles": "Barcha maqolalar",
+      "visas": "Vizalar",
+      "work": "Ish",
+      "life": "Bolgariyada hayot",
+      "documents": "Hujjatlar",
+      "tips": "Maslahatlar",
+      "search": "Blog bo'yicha qidirish..."
+    },
+    "posts": {
+      "post1": {
+        "date": "15 aprel 2025",
+        "category": "Vizalar",
+        "title": "2025 yilda Bolgariyada ishlash uchun D vizasi haqida bilish kerak bo'lgan hamma narsa",
+        "desc": "D vizasini olish jarayoni bo'yicha batafsil qo'llanma: hujjatlar, muddatlar, narxlar va muvaffaqiyatli rasmiylashtirish bo'yicha maslahatlar.",
+        "read_more": "Davomini o'qish",
+        "share": "Ulashish"
+      },
+      "post2": {
+        "date": "10 aprel 2025",
+        "category": "Bolgariyada hayot",
+        "title": "Bolgariyada uy-joy topish va ijaraga olish: to'liq qo'llanma",
+        "desc": "Ko'chmas mulk bozorining xususiyatlari, turli shaharlarda ijara narxi, shartnomani rasmiylashtirish jarayoni va migrantlar uchun foydali maslahatlar.",
+        "read_more": "Davomini o'qish",
+        "share": "Ulashish"
+      },
+      "post3": {
+        "date": "5 aprel 2025",
+        "category": "Ish",
+        "title": "Bolgariyada mehnat shartnomasi: nimaga e'tibor berish kerak",
+        "desc": "Mehnat shartnomasining muhim bandlari, huquq va majburiyatlaringiz, tipik xatolar va Bolgariya mehnat qonunchiligi xususiyatlari.",
+        "read_more": "Davomini o'qish",
+        "share": "Ulashish"
+      },
+      "post4": {
+        "date": "28 mart 2025",
+        "category": "Bolgariyada hayot",
+        "title": "Boshlang'ichlar uchun bolgar tili: asosiy iboralar va o'rganish bo'yicha maslahatlar",
+        "desc": "Kundalik muloqot uchun asosiy iboralar, rus tili bilan o'xshashliklar va farqlar, bolgar tilini o'rganishning samarali usullari.",
+        "read_more": "Davomini o'qish",
+        "share": "Ulashish"
+      },
+      "post5": {
+        "date": "20 mart 2025",
+        "category": "Hujjatlar",
+        "title": "Bolgariyada yashash uchun ruxsatnoma qanday olinadi: bosqichma-bosqich ko'rsatma",
+        "desc": "O'zbekistonlik mehnat migrantlari uchun yashash uchun ruxsatnoma olish uchun talablar, hujjatlar, ariza berish tartibi va rasmiylashtirish muddatlari.",
+        "read_more": "Davomini o'qish",
+        "share": "Ulashish"
+      },
+      "post6": {
+        "date": "15 mart 2025",
+        "category": "Ish",
+        "title": "2025 yilda Bolgariyada kasblarga ko'ra o'rtacha ish haqi",
+        "desc": "Turli sohalarda ish haqi darajasi tahlili, hayot narxi va daromad taqqoslash, daromadni oshirish bo'yicha maslahatlar.",
+        "read_more": "Davomini o'qish",
+        "share": "Ulashish"
+      }
+    },
+    "pagination": {
+      "current": "1",
+      "next": "Keyingi",
+      "previous": "Oldingi"
+    },
+    "subscribe": {
+      "title": "Bizning yangilanishlarga obuna bo'ling",
+      "desc": "Bolgariyada ishga joylashish haqidagi yangi maqolalar va yangilanishlarni emailingizga oling",
+      "placeholder": "Sizning emailingiz",
+      "button": "Obuna bo'lish"
+    },
+    "popular_topics": {
+      "title": "Mashhur mavzular",
+      "visas": "Vizalar",
+      "work": "Ish",
+      "documents": "Hujjatlar",
+      "life": "Bolgariyada hayot",
+      "tips": "Maslahatlar"
+    }
+  },
+  "info": {
+    "title": "Foydali ma'lumotlar",
+    "navigation": {
+      "guides": "Bosqichma-bosqich ko'rsatmalar",
+      "tips": "Maslahatlar va maqolalar",
+      "faq": "Savol-javob",
+      "checklists": "Kontrol ro'yxatlar"
+    },
+    "guides": {
+      "title": "Bosqichma-bosqich ko'rsatmalar",
+      "intro": "O'zbekistondan Bolgariyaga mehnat migrantlari uchun muhim jarayonlar bo'yicha batafsil qo'llanmalar",
+      "guide1": {
+        "title": "Bolgariyada ishlash uchun D vizasini rasmiylashtirish",
+        "desc": "Ishchi vizasini olish to'liq jarayoni: hujjatlarni yig'ishdan tortib topshirish va olishgacha",
+        "read": "Ko'rsatmani o'qish"
+      },
+      "guide2": {
+        "title": "Yashash uchun ruxsatnoma va ish ruxsatnomasini olish",
+        "desc": "Bolgariyaga kelgandan keyin yashash uchun ruxsatnoma va ish ruxsatnomasini rasmiylashtirish tartibi",
+        "read": "Ko'rsatmani o'qish"
+      },
+      "guide3": {
+        "title": "Mehnat migrantlari uchun soliq solish",
+        "desc": "Bolgariyada soliqlar, ularning to'lash muddatlari va tartibi haqida bilish kerak bo'lgan narsalar",
+        "read": "Ko'rsatmani o'qish"
+      },
+      "guide4": {
+        "title": "Tibbiy sug'urta va xizmat ko'rsatish",
+        "desc": "Bolgariyada sug'urta qanday rasmiylashtiriladi va tibbiy yordam qanday olinadi",
+        "read": "Ko'rsatmani o'qish"
+      },
+      "guide5": {
+        "title": "Uy-joy qidirish va ijaraga olish",
+        "desc": "Uy-joy qidirish, tumanlar, narxlar va ijara shartnomasini rasmiylashtirish bo'yicha maslahatlar",
+        "read": "Ko'rsatmani o'qish"
+      },
+      "guide6": {
+        "title": "Aloqa va bank xizmatlari",
+        "desc": "Bolgariyada aloqa operatorini qanday tanlash va bank hisobini qanday ochish kerak",
+        "read": "Ko'rsatmani o'qish"
+      }
+    },
+    "tips": {
+      "title": "Maslahatlar va maqolalar",
+      "intro": "Bolgariyada hayot va ish haqida foydali materiallar: madaniyat, an'analar, moslashish",
+      "categories": {
+        "all": "Hammasi",
+        "culture": "Madaniyat",
+        "lifestyle": "Turmush tarzi",
+        "work": "Ish",
+        "language": "Til"
+      },
+      "tip1": {
+        "category": "Madaniyat",
+        "title": "10 ta muhim bolgar an'analari va bayramlari",
+        "desc": "Mahalliy aholini yaxshiroq tushunishga yordam beradigan asosiy madaniy xususiyatlar va bayramlar haqida umumiy ma'lumot",
+        "read": "Maqolani o'qish"
+      },
+      "tip2": {
+        "category": "Ish",
+        "title": "Bolgariyada ish etikasi: nimani bilish kerak",
+        "desc": "Ish joyidagi xulq-atvor qoidalari, hamkasblar va rahbariyat bilan muloqot xususiyatlari",
+        "read": "Maqolani o'qish"
+      },
+      "tip3": {
+        "category": "Turmush tarzi",
+        "title": "Bolgariya transport tizimi: yangi boshlanuvchilar uchun qo'llanma",
+        "desc": "Jamoat transportidan qanday foydalanish, tariflar, marshrutlar va shaharlar orasida harakatlanish bo'yicha maslahatlar",
+        "read": "Maqolani o'qish"
+      },
+      "tip4": {
+        "category": "Til",
+        "title": "Kundalik muloqot uchun bolgar tilidagi asosiy iboralar",
+        "desc": "Turli vaziyatlarda mahalliy aholi bilan muloqot qilishda yordam beradigan asosiy iboralar",
+        "read": "Maqolani o'qish"
+      },
+      "tip5": {
+        "category": "Madaniyat",
+        "title": "Bolgar oshxonasi: nimani tatib ko'rish kerak va qayerda ovqatlanish kerak",
+        "desc": "An'anaviy taomlar, mashhur restoranlar va mahsulotlarni tanlash bo'yicha maslahatlar haqida umumiy ma'lumot",
+        "read": "Maqolani o'qish"
+      },
+      "tip6": {
+        "category": "Ish",
+        "title": "Mehnat huquqlari va migrantlar manfaatlarini himoya qilish",
+        "desc": "Ish joyida o'z huquqlaringizni qanday himoya qilish, muammolar yuzaga kelganda qayerga murojaat qilish kerak",
+        "read": "Maqolani o'qish"
+      },
+      "tip7": {
+        "category": "Turmush tarzi",
+        "title": "Bolgariyada migrantlar uchun bank xizmatlari",
+        "desc": "Qanday hisob ochish, mos keladigan bankni tanlash, pulni O'zbekistonga o'tkazish",
+        "read": "Maqolani o'qish"
+      },
+      "tip8": {
+        "category": "Madaniyat",
+        "title": "Bolgariyada xulq-atvor me'yorlari va etiket",
+        "desc": "Mahalliy aholi bilan muloqot qilish xususiyatlari, jamoat joylarida xulq-atvor qoidalari",
+        "read": "Maqolani o'qish"
+      },
+      "tip9": {
+        "category": "Til",
+        "title": "Bolgar tilini qayerda o'rganish mumkin: kurslar va resurslar",
+        "desc": "Til maktablari, onlayn kurslar va bolgar tilini o'rganish uchun ilovalar haqida umumiy ma'lumot",
+        "read": "Maqolani o'qish"
+      },
+      "load_more": "Ko'proq yuklash"
+    },
+    "faq": {
+      "title": "Ko'p so'raladigan savollar",
+      "intro": "Bolgaristonda ishlash va hayot kechirish bo'yicha eng ko'p uchraydigan savollarga javoblar",
+      "categories": {
+        "all": "Barcha savollar",
+        "migrants": "Migratsiya uchun",
+        "employers": "Ish beruvchilar uchun",
+        "visa": "Viza va hujjatlar",
+        "work": "Ish",
+        "life": "Bolgaristonda hayot"
+      },
+      "search": "Savollar bo'yicha qidirish...",
+      "migrants_questions": {
+        "start_working_in_bulgaria": {
+          "q": "Agar men Bolgaristonda ishlashni boshlashni xohlasam, qayerdan boshlashim kerak?",
+          "a": "Kontaktlarimizda ko‘rsatilgan telefon raqamlarga qo‘ng‘iroq qilishingiz, sayt orqali formani to‘ldirishingiz, Telegram yoki WhatsApp orqali yozishingiz mumkin. Biz qaysi qadamlarni bajarishingiz kerakligini aytamiz, hujjatlarni yig‘ishda yordam beramiz va tasdiqlangan ish beruvchilar bilan bog‘laymiz."
+        },
+        "required_visa_documents": {
+          "q": "D vizasini olish uchun qanday hujjatlar kerak?",
+          "a": "Sizga quyidagilar kerak bo‘ladi: ish beruvchidan taklifnoma, xorijiy pasport, viza arizasi, tibbiy sug‘urta, suddan mahrumlik haqida ma’lumotnoma, rasm va boshqa kerakli hujjatlar. Biz to‘liq ro‘yxatni taqdim etamiz va hujjatlarni rasmiylashtirishda yordam beramiz."
+        },
+        "fill_visa_form": {
+          "q": "Siz viza arizasini to‘ldirishda yordam berasizmi?",
+          "a": "Ha, biz Bolgariya elchixonasining barcha talablarini hisobga olgan holda D turidagi viza arizalarini professional tarzda to‘ldiramiz."
+        },
+        "cost_documents_insurance": {
+          "q": "Hujjatlar va sug‘urtani rasmiylashtirish qancha turadi?",
+          "a": "Narxlar xizmat paketiga bog‘liq. Biz qulay tariflarni taklif qilamiz. Narxlarni “Xizmatlar narxlari” bo‘limida yoki operatorimizdan bilib olishingiz mumkin."
+        },
+        "review_documents": {
+          "q": "Siz allaqachon tayyorlagan hujjatlarimni tekshirishingiz mumkinmi?",
+          "a": "Ha, biz hujjatlaringizni talablar bo‘yicha tekshirib, nima to‘g‘rilash yoki qo‘shimcha qilish kerakligini aytamiz."
+        },
+        "get_insurance": {
+          "q": "Viza uchun tibbiy sug‘urtani qaerdan rasmiylashtirish mumkin?",
+          "a": "Sug‘urtani bevosita bizning markazimizda rasmiylashtirishingiz mumkin. Biz Bolgariston va O‘zbekiston sertifikatlangan sug‘urta kompaniyalari bilan hamkorlik qilamiz."
+        },
+        "book_tickets_transfer": {
+          "q": "Siz aviabiletlar va ish joyigacha transferni bron qilasizmi?",
+          "a": "Ha, biz to‘liq yo‘nalishni – Toshkentdan Bolgaristonning so‘ngi manziligacha, shu jumladan aviabiletlar, avtobus va transferni tashkil qilamiz."
+        },
+        "lost_documents": {
+          "q": "Agar men Bolgaristonda hujjatlarimni yo‘qotsam, nima qilishim kerak?",
+          "a": "Darhol bizning ishonch telefoni orqali bog‘laning. Biz nima qilish kerakligini aytamiz va konsullikka murojaat qilishda yordam beramiz."
+        },
+        "emergency_contacts": {
+          "q": "Favqulodda holatda operator bilan qanday bog‘lanishim mumkin?",
+          "a": "Siz telefon, Telegram, WhatsApp yoki sayt orqali yozishingiz mumkin – operator darhol sizning murojaatingizni qabul qiladi."
+        },
+        "employer_disputes": {
+          "q": "Ish beruvchi bilan muammolar bo‘lganda yordam berasizmi?",
+          "a": "Ha, biz Bolgariston mehnat qonunchiligi bo‘yicha maslahat beramiz va ikki tomon manfaatlarini hisobga olgan holda nizolarni hal qilishga yordam beramiz."
+        },
+        "online_consultation": {
+          "q": "Onlayn maslahat olish mumkinmi?",
+          "a": "Ha, siz sayt, Telegram yoki WhatsApp orqali onlayn maslahatga yozilishingiz mumkin. Shuningdek, qisqa bepul maslahat ham mavjud."
+        },
+        "employer_reliability": {
+          "q": "Siz bilan hamkorlik qilayotgan ish beruvchilar qancha ishonchli?",
+          "a": "Biz faqat huquqiy ruxsatnomaga ega va ijobiy fikr-mulohazalarga ega tekshirilgan ish beruvchilar bilan ishlaymiz."
+        },
+        "worker_rights": {
+          "q": "Bolgaristonda xodim sifatida qanday huquqlarga egaman?",
+          "a": "Siz qonuniy shartnoma, o‘z vaqtida to‘lov, mehnat sharoitlari va ijtimoiy himoya huquqlariga egasiz. Batafsil ma'lumot individual maslahatda taqdim etiladi."
+        },
+        "already_in_bulgaria": {
+          "q": "Agar men allaqachon Bolgaristonda bo‘lsam, yordam olishim mumkinmi?",
+          "a": "Ha, albatta. Biz chetga chiqishni rejalashtirayotganlar bilan birga allaqachon ishlayotganlarga ham xizmat ko‘rsatamiz."
+        },
+        "full_support_cost": {
+          "q": "Barcha bosqichlar bo‘yicha to‘liq hamkorlik qancha turadi?",
+          "a": "Xizmat paketiga qarab narx belgilanadi. Biz bir martalik xizmatlar va to‘liq hamkorlik paketlarini taklif qilamiz. Biz bilan bog‘laning – eng mos variantni tanlaymiz."
+        }
+      },
+      "employers_questions": {
+        "post_job": {
+          "q": "Markaz platformasida qanday qilib vakant bo‘sh ish o‘rinini joylashtirish mumkin?",
+          "a": "Siz sayt, Telegram, WhatsApp yoki telefon orqali murojaat qilishingiz mumkin. Biz e'lonni joylashtiramiz va uni murojaatchilar orasida targ‘ib qilamiz."
+        },
+        "recruit_workers": {
+          "q": "O‘zbekistonlik xodimlarni tanlashda yordam berasizmi?",
+          "a": "Ha, biz nomzodlarni mezonlar bo‘yicha saralaymiz, oldindan suhbatlar o‘tkazamiz va rezyumelarini taqdim etamiz."
+        },
+        "foreign_worker_documents": {
+          "q": "Chet el xodimini rasmiylashtirish uchun qanday hujjatlar kerak?",
+          "a": "Biz zarur hujjatlar ro‘yxatini taqdim etamiz va ularni tayyorlashda yuridik qo‘llab-quvvatlashni taklif qilamiz."
+        },
+        "post_arrival_support": {
+          "q": "Xodimlarni Bolgaristonga kelgach qo‘llab-quvvatlaysizmi?",
+          "a": "Ha, biz adaptatsiya jarayonida yordam beramiz, kundalik masalalarni hal qilamiz va jamoaga qo‘shilishiga ko‘maklashamiz."
+        },
+        "training_and_adaptation": {
+          "q": "Xodimlarni o‘qitish yoki adaptatsiyada yordam berasizmi?",
+          "a": "Ha, biz jamoa mehnat madaniyati bo‘yicha kirish kurslari va til kurslarini (ruscha va bolgarcha) taklif qilamiz."
+        },
+        "arrange_interview": {
+          "q": "Siz orqali onlayn suhbat tashkil qilish mumkinmi?",
+          "a": "Ha, biz ish beruvchilar va nomzodlar o‘rtasida yakka tartibda yoki guruh suhbatlarini tashkil qilamiz."
+        },
+        "contact_bulgarian_rep": {
+          "q": "Bolgaristondagi vakil bilan qanday bog‘lanish mumkin?",
+          "a": "Siz saytimizda keltirilgan kontaktlar orqali, shuningdek Telegram, WhatsApp va telefon orqali bog‘lanishingiz mumkin."
+        },
+        "corporate_services": {
+          "q": "Korporativ xizmatlarga nimalar kiradi?",
+          "a": "Xodimlarni qo‘llab-quvvatlash, maslahatlar, mehnat sifatini nazorat qilish, nizolarni hal qilish va yangi xodimlarni adaptatsiya qilish. Batafsil ma'lumot uchun biz bilan bog‘laning."
+        },
+        "processing_time": {
+          "q": "Xodimni rasmiylashtirish va kelishi necha oy davom etadi?",
+          "a": "O‘rtacha 4-6 oy davom etadi. Biz jarayonni to‘liq nazorat qilib boramiz."
+        },
+        "cooperation_terms": {
+          "q": "Markaz bilan hamkorlik shartlari qanday?",
+          "a": "Shartlar individual ravishda kelishiladi. Biz uzoq muddatli va o‘zaro manfaatli hamkorlikka ochiqmiz."
+        }
+      },
+      "life_questions": {
+        "popular_cities": {
+          "q": "O‘zbekistonlik mehnat migrantlari orasida Bolgaristondagi qaysi shaharlar eng mashhur?",
+          "a": "O‘zbekistonlik migrantlar orasida eng ko‘p quyidagi shaharlar mashhur:\n- **Sofiya** – poytaxt va eng yirik shahar, turli sohalarda ko‘proq ish o‘rinlari mavjud.\n- **Varna** va **Burgas** – Qora dengiz bo‘yicha joylashgan yirik shaharlar, ayniqsa yozgi mavsumda turizm sohasida ko‘plab imkoniyatlar bor.\n- **Plovdiv** – sanoat va qishloq xo‘jaligi rivojlangan ikkinchi yirik shahar.\n- **Ruse** – Ruminiya bilan chegara bo‘yicha muhim logistika markazi."
+        },
+        "average_cost_of_living": {
+          "q": "Bolgaristonda hayot xarajatlari o‘rtacha qancha?",
+          "a": "Hayot xarajatlari shahar va turmush tarziingizga qarab farq qiladi, ammo o‘rtacha quyidagilarni hisobga olish mumkin:\n- **Ijaraga olingan uy**: kichik shaharda 150-300 yevro, Sofiyada 250-500 yevro.\n- **Kommunal xizmatlar**: oyiga 50-100 yevro.\n- **Oziq-ovqat**: oyiga 150-200 yevro.\n- **Transport**: oyiga 25-40 yevro.\n- **Aloqa (telefon, internet)**: oyiga 15-30 yevro.\n- **O‘yin-kulgi va dam olish**: oyiga 50 yevrodan.\nShunday qilib, minimal oy davomida xarajatlar taxminan 450–700 yevro atrofida bo‘ladi."
+        }
+      },
+      "show_more": "Boshqa savollarni ko‘rsatish"
+    },
+    "checklists": {
+      "title": "Foydali kontrol ro'yxatlar",
+      "intro": "Bolgariyaga ko'chish va ishlashga tayyorgarlik jarayonini nazorat qilish uchun kontrol ro'yxatlarni yuklab oling va chop eting",
+      "checklist1": {
+        "title": "D vizasini rasmiylashtirish uchun hujjatlar",
+        "desc": "Viza olish uchun tayyorlash kerak bo'lgan hujjatlarning to'liq ro'yxati",
+        "download": "PDF ni yuklab olish"
+      },
+      "checklist2": {
+        "title": "Bolgariyaga o'zi bilan nima olish kerak",
+        "desc": "O'zi bilan olish tavsiya etiladigan narsalar, hujjatlar va predmetlar ro'yxati",
+        "download": "PDF ni yuklab olish"
+      },
+      "checklist3": {
+        "title": "Bolgariyaga kelgandan keyingi dastlabki qadamlar",
+        "desc": "Bolgariyaga kelgandan keyin nima qilish kerak",
+        "download": "PDF ni yuklab olish"
+      },
+      "checklist4": {
+        "title": "Bolgariyada yashash uchun ruxsatnoma rasmiylashtirish",
+        "desc": "Yashash uchun ruxsatnoma olish tartibi va hujjatlari",
+        "download": "PDF ni yuklab olish"
+      },
+      "checklist5": {
+        "title": "Bolgariyada ishga joylashish",
+        "desc": "Ishga joylashish jarayoni bosqichlari, zarur harakatlar va hujjatlar",
+        "download": "PDF ni yuklab olish"
+      },
+      "checklist6": {
+        "title": "Tibbiy xizmat",
+        "desc": "Bolgariyada tibbiy yordam qanday olinadi, sug'urta rasmiylashtirish",
+        "download": "PDF ni yuklab olish"
+      },
+      "checklist7": {
+        "title": "Moliyaviy rejalashtirish",
+        "desc": "Bolgariyada dastlabki vaqt uchun budjet hisob-kitobi",
+        "download": "PDF ni yuklab olish"
+      },
+      "checklist8": {
+        "title": "Uy-joy ijarasi",
+        "desc": "Bolgariyada uy-joy tanlash va ijaraga olishda nimaga e'tibor berish kerak",
+        "download": "PDF ni yuklab olish"
+      },
+      "cta": {
+        "title": "Savollaringiz bormi?",
+        "desc": "Bizning mutaxassislarimiz Bolgariyada ishga joylashish va hayot kechirish bilan bog'liq har qanday savollarda yordam berishga tayyor",
+        "buttons": {
+          "call": "Qo'ng'iroq qilish",
+          "telegram": "Telegram",
+          "all_contacts": "Barcha kontaktlar"
+        }
+      }
+    }
+  },
+  "services": {
+    "title": "YurYor markazi xizmatlari",
+    "intro": {
+      "title": "Migrantlar va ish beruvchilar uchun to'liq qo'llab-quvvatlash",
+      "desc1": "YurYor markazi O'zbekiston fuqarolarini Bolgariyada ishga joylashtirishda keng ko'lamli xizmatlarni taqdim etadi, shuningdek bolgar ish beruvchilariga malakali xodimlarni topish va rasmiylashtirishda yordam beradi.",
+      "desc2": "Bizning maqsadimiz — mehnat migrantlari va ish beruvchilar o'rtasida barcha bosqichlarda: ish joylarini tanlashdan tortib, hujjatlarni rasmiylashtirish va ish joyida muvaffaqiyatli moslashishgacha bo'lgan hamkorlikning shaffof, samarali va o'zaro manfaatli bo'lishini ta'minlashdir."
+    },
+    "categories": {
+      "migrants": {
+        "title": "Migrantlar uchun xizmatlar",
+        "desc": "Bolgariyada ishlashni rejalashtirgan O'zbekiston fuqarolari uchun to'liq yordam",
+        "services": {
+          "documents": "Hujjatlar va D vizasini rasmiylashtirish",
+          "insurance": "Tibbiy sug'urta",
+          "travel": "Sayohatni tashkil etish",
+          "support": "Maslahat qo'llab-quvvatlashi"
+        },
+        "details": "Xizmatlar haqida batafsil ma'lumot"
+      },
+      "employers": {
+        "title": "Ish beruvchilar uchun xizmatlar",
+        "desc": "O'zbekistondan mehnat migrantlarini jalb qilish va rasmiylashtirishda bolgar kompaniyalariga yordam",
+        "services": {
+          "vacancies": "Vakansiyalarni joylashtirish",
+          "recruitment": "Xodimlarni tanlash va suhbatlar",
+          "documents": "Hujjatlarni rasmiylashtirish",
+          "adaptation": "Xodimlarni moslashtirishda yordam"
+        },
+        "details": "Xizmatlar haqida batafsil ma'lumot"
+      }
+    },
+    "popular_services": {
+      "title": "Mashhur xizmatlar",
+      "intro": "Migrantlar va ish beruvchilar uchun eng talab qilinadigan xizmatlar",
+      "service1": {
+        "title": "D vizasini rasmiylashtirish",
+        "desc": "Bolgariyaga ish vizasini olish uchun hujjatlarni yig'ish va tayyorlashda yordam, rasmiylashtirish tartibi bo'yicha maslahatlar",
+        "link": "Migrantlar uchun"
+      },
+      "service2": {
+        "title": "Xodimlarni tanlash",
+        "desc": "Bolgar ish beruvchisi talablari va mezonlariga ko'ra O'zbekistondan malakali kadrlarni qidirish va tanlash",
+        "link": "Ish beruvchilar uchun"
+      },
+      "service3": {
+        "title": "Huquqiy hamrohlik",
+        "desc": "Mehnat shartnomalarini tayyorlash va tekshirish, ruxsatnomalar va hujjatlarni rasmiylashtirishda yordam",
+        "links": {
+          "migrants": "Migrantlar uchun",
+          "employers": "Ish beruvchilar uchun"
+        }
+      },
+      "service4": {
+        "title": "Joyda moslashish",
+        "desc": "Migrantlarga Bolgariyaga kelganidan keyin yordam, maishiy va ish masalalarini hal qilishda ko'maklashish",
+        "links": {
+          "migrants": "Migrantlar uchun",
+          "employers": "Ish beruvchilar uchun"
+        }
+      },
+      "service5": {
+        "title": "Sayohatni tashkil etish",
+        "desc": "Chipta bron qilish, transfer tashkil etish va logistika masalalarini hal qilishda yordam",
+        "link": "Migrantlar uchun"
+      },
+      "service6": {
+        "title": "24/7 maslahatlar",
+        "desc": "Ishga joylashish va moslashish bo'yicha barcha masalalarda sutkalik axborot va huquqiy yordam",
+        "links": {
+          "migrants": "Migrantlar uchun",
+          "employers": "Ish beruvchilar uchun"
+        }
+      }
+    },
+    "process": {
+      "title": "Biz qanday ishlaymiz",
+      "intro": "Migrantlar va ish beruvchilar bilan hamkorlik qilish yondashuvimiz",
+      "step1": {
+        "title": "Dastlabki maslahat",
+        "desc": "Mijoz ehtiyojlarini aniqlash, hamkorlik maqsadlari va imkoniyatlarini belgilash"
+      },
+      "step2": {
+        "title": "Harakatlar rejasini tuzish",
+        "desc": "Individual strategiya ishlab chiqish, optimal xizmatlar paketini tanlash"
+      },
+      "step3": {
+        "title": "Tayyorgarlik va rasmiylashtirish",
+        "desc": "Hujjatlarni yig'ish, anketalarni to'ldirish, zarur protseduralardan o'tish"
+      },
+      "step4": {
+        "title": "Amalga oshirish va hamrohlik qilish",
+        "desc": "Bizning mutaxassislarimiz nazorati ostida rejalashtirilgan qadamlarni bajarish"
+      },
+      "step5": {
+        "title": "Tugatilgandan keyingi qo'llab-quvvatlash",
+        "desc": "Butun hamkorlik davomida yuzaga keladigan savollarda maslahat va yordam"
+      }
+    },
+    "testimonials": {
+      "title": "Mijozlarimizning fikrlari",
+      "testimonial1": {
+        "text": "\"Do'stimning tavsiyasi bilan YurYor markaziga murojaat qildim va bu eng yaxshi qaror edi. Menga barcha bosqichlarda hamrohlik qilishdi: hujjatlar bilan yordam berishdi, sayohatni tashkil etishdi va hatto aeroportda kutib olishdi. Hozir Sofiyada qurilishda ishlayapman, sharoitlar a'lo, hammasi rasmiy.\"",
+        "author": "Ulug'bek Ahmedov",
+        "position": "Quruvchi, Sofiya sh."
+      },
+      "testimonial2": {
+        "text": "\"YurYor markazi bilan bir yildan ortiq hamkorlik qilmoqdamiz. Shu vaqt ichida markaz orqali ishlab chiqarishimiz uchun 15 nafar xodimni yolladik. Barcha jarayonlar aniq tashkil etilgan, xodimlar malakali va mas'uliyatli. Ayniqsa, xodimlarni moslashtirishda yordam berganliklarini qadrlaymiz — bu ishlash davriga kirishish muddatini sezilarli darajada qisqartirdi.\"",
+        "author": "Stefan Dimitrov",
+        "position": "Ishlab chiqarish direktori, \"Balkan Plastik\""
+      },
+      "testimonial3": {
+        "text": "\"YurYor xodimlariga professionalligi va e'tiborli munosabati uchun minnatdorchilik bildirmoqchiman. Barcha hujjatlarni tez va muammosiz rasmiylashtirishdi, tibbiy sug'urta bilan yordam berishdi. Hozirda sohil bo'yidagi mehmonxonada ishlayapman, sharoitlar va maoshdan juda mamnunman.\"",
+        "author": "Dilshod Hakimov",
+        "position": "Mehmonxona xodimi, Varna sh."
+      }
+    },
+    "contact_form": {
+      "title": "Boshlashga tayyormisiz?",
+      "desc": "So'rov qoldiring va mutaxassisimiz maslahat va keyingi qadamlarni muhokama qilish uchun siz bilan bog'lanadi.",
+      "methods": {
+        "phone": "Telefon",
+        "email": "Email",
+        "telegram": "Telegram"
+      },
+      "form": {
+        "name": "Ismingiz",
+        "phone": "Telefon raqamingiz",
+        "email": "Email",
+        "user_type": "Siz kim sifatida murojaat qilmoqdasiz",
+        "select": "Tanlang",
+        "migrant": "Mehnat migranti",
+        "employer": "Ish beruvchi",
+        "service": "Qiziqtirayotgan xizmat",
+        "select_service": "Xizmatni tanlang",
+        "comments": "Qo'shimcha izohlar",
+        "agree": "Men shaxsiy ma'lumotlarni qayta ishlashga rozilik va maxfiylik siyosati bilan roziman",
+        "submit": "So'rov yuborish"
+      }
+    },
+    "faq": {
+      "title": "Tez-tez so'raladigan savollar",
+      "question1": {
+        "q": "Ishga joylashish jarayoni qancha vaqt oladi?",
+        "a": "Hujjatlarni rasmiylashtirish va ishga joylashishning o'rtacha muddati 4-6 oyni tashkil etadi. Bu hujjatlarni tayyorlash, viza olish, sayohatni tashkil etish va yangi joyga moslashishni o'z ichiga oladi."
+      },
+      "question2": {
+        "q": "Xizmatlaringiz qancha turadi?",
+        "a": "Xizmatlar narxi tanlangan paket va individual ehtiyojlarga bog'liq. Biz migrantlar va ish beruvchilar uchun moslashuvchan tariflarni taklif qilamiz. Aniq narxni maslahat vaqtida menejerimiz bilan muhokama qilish mumkin."
+      },
+      "question3": {
+        "q": "Siz ishga joylashishni kafolatlaysizmi?",
+        "a": "Biz 100% ishga joylashishni kafolatlay olmaymiz, lekin maksimal yordam ko'rsatish uchun barcha harakatlarni qilamiz. Bizning markaz tekshirilgan ish beruvchilar bilan hamkorlik qiladi va nomzodlarning professional ko'nikmalari va tajribasini hisobga olgan holda vakansiyalarni tanlaydi."
+      },
+      "question4": {
+        "q": "Mening shaxsiy ma'lumotlarim qanday himoyalangan?",
+        "a": "Biz shaxsiy ma'lumotlarni himoya qilish qonunchiligiga qat'iy rioya qilamiz. Barcha taqdim etilgan ma'lumotlar maxfiy qayta ishlanadi, himoyalangan ma'lumotlar bazalarida saqlanadi va faqat ishga joylashish maqsadlarida ishlatiladi."
+      },
+      "question5": {
+        "q": "Bepul maslahat olish mumkinmi?",
+        "a": "Ha, biz 15 daqiqagacha bo'lgan dastlabki bepul maslahat beramiz. Maslahat davomida mutaxassislarimiz asosiy savollaringizga javob beradilar va keyingi qadamlarni aniqlashda yordam beradilar."
+      }
+    }
+  },
+  "services_migrants": {
+    "title": "O'zbekiston fuqarolari uchun xizmatlar",
+    "intro": {
+      "title": "Butun yo'l davomida kompleks qo'llab-quvvatlash",
+      "desc1": "YurYor markazi Bolgariyada ishlashni istagan O'zbekiston fuqarolari uchun to'liq xizmatlar spektrini taqdim etadi. Biz sizga har bir bosqichda hamrohlik qilamiz: dastlabki maslahatdan tortib muvaffaqiyatli ishga joylashish va yangi joyga moslashishgacha.",
+      "desc2": "Barcha xizmatlarimiz migratsiya jarayonini iloji boricha oddiy, xavfsiz va qulay qilishga qaratilgan. Biz har bir bosqichda shaffoflikni ta'minlaymiz va barcha imkoniyatlar va cheklovlar haqida haqqoniy ma'lumot beramiz."
+    },
+    "services": {
+      "documents": {
+        "title": "Hujjatlarni rasmiylashtirishda yordam",
+        "service1": {
+          "title": "Maslahatlar",
+          "desc": "Qanday hujjatlar kerak va ularni qanday yig'ish kerakligi haqida aytib beramiz."
+        },
+        "service2": {
+          "title": "Tekshirish va tuzatish",
+          "desc": "Xatolarni bartaraf etamiz va hujjatlarni kerakli formatga keltiramiz."
+        },
+        "service3": {
+          "title": "Anketalarni to'ldirish",
+          "desc": "Viza va boshqa shakllarga anketalarni to'g'ri to'ldirishda yordam beramiz."
+        },
+        "service4": {
+          "title": "Hujjatlarni topshirish",
+          "desc": "Tekshirilgan hamkor agentliklar orqali, ortiqcha muammolarsiz."
+        }
+      },
+      "insurance": {
+        "title": "Tibbiy sug'urta",
+        "service1": {
+          "title": "D vizasi uchun",
+          "desc": "Elchixona talablariga javob beradigan sug'urta polisini rasmiylashtiramiz."
+        },
+        "service2": {
+          "title": "Ishlash vaqti uchun",
+          "desc": "To'liq qoplamali uzoq muddatli sug'urtalar."
+        },
+        "benefits": {
+          "title": "Nima uchun sug'urtani biz orqali rasmiylashtirish kerak:",
+          "benefit1": "Ishonchli sug'urta kompaniyalari bilan hamkorlik munosabatlari",
+          "benefit2": "Mijozlarimiz uchun maxsus tariflar",
+          "benefit3": "Optimal sug'urta variantini tanlashda yordam",
+          "benefit4": "Tez rasmiylashtirish va polisni yetkazib berish"
+        }
+      },
+      "travel": {
+        "title": "O'zbekiston — Bolgariya sayohatini tashkil etish",
+        "service1": {
+          "title": "Aviachiptalar",
+          "desc": "Qulay marshrutlarni tanlash, bron qilish."
+        },
+        "service2": {
+          "title": "Avtobus chiptalar",
+          "desc": "Ish joyiga yetib borish uchun yer usti transporti."
+        },
+        "service3": {
+          "title": "Ichki transferlar",
+          "desc": "Sofiya, Varna, Burgas va boshqa shaharlardagi aeroportdan yetkazib berish."
+        },
+        "steps": {
+          "title": "Sizning sayohatingizni qanday tashkil qilamiz:",
+          "step1": "Sizning byudjet va muddatlaringizni hisobga olgan holda optimal marshrutni tanlash",
+          "step2": "Chipta bron qilish va sotib olish",
+          "step3": "Aeroportda kutib olishni tashkil qilish",
+          "step4": "Oxirgi manzilga transfer"
+        }
+      },
+      "consultation": {
+        "title": "Maslahat xizmatlari",
+        "service1": {
+          "title": "Onlayn-maslahat",
+          "desc": "Aniq savol bo'yicha tez yordam."
+        },
+        "service2": {
+          "title": "24/7 qo'llab-quvvatlash",
+          "desc": "Doimiy axborot va huquqiy qo'llab-quvvatlash obunasi."
+        },
+        "service3": {
+          "title": "Shaxsiy menejer",
+          "desc": "Mijozga barcha bosqichlarda individual hamrohlik qilish."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Nima uchun YurYorni tanlash kerak",
+      "benefit1": {
+        "title": "Tajribali jamoa",
+        "desc": "Bizning mutaxassislarimiz mehnat migratsiyasi sohasida ko'p yillik tajribaga ega va hujjatlarni rasmiylashtirishning barcha xususiyatlarini bilishadi."
+      },
+      "benefit2": {
+        "title": "Ikki mamlakatda ofislar",
+        "desc": "Toshkent va Bolgariyadagi vakolatxonalar bizga ishni samarali muvofiqlashtirish va yuzaga keladigan masalalarni tez hal qilish imkonini beradi."
+      },
+      "benefit3": {
+        "title": "Xavfsizlik va ishonchlilik",
+        "desc": "Biz faqat tekshirilgan ish beruvchilar bilan hamkorlik qilamiz va barcha huquqlarni hurmat qilgan holda qonuniy ishga joylashishni kafolatlaymiz."
+      },
+      "benefit4": {
+        "title": "Til yordami",
+        "desc": "Bizning xodimlarimiz o'zbek, rus va bolgar tillarida so'zlashadi, bu barcha bosqichlarda muloqotni soddalashtiradi."
+      },
+      "benefit5": {
+        "title": "24/7 qo'llab-quvvatlash",
+        "desc": "Biz doimo aloqadamiz va noish vaqtida ham istalgan vaziyatda yordam berishga tayyormiz."
+      },
+      "benefit6": {
+        "title": "Individual yondashuv",
+        "desc": "Biz har bir mijozning ehtiyojlari va imkoniyatlarini hisobga olgan holda optimal harakatlar rejasini ishlab chiqamiz."
+      }
+    },
+    "process": {
+      "title": "Biz qanday ishlaymiz",
+      "intro": "Dastlabki murojaat qilishdan tortib, muvaffaqiyatli ishga joylashishgacha bo'lgan aniq va tushunarli hamrohlik jarayoni",
+      "step1": {
+        "title": "Dastlabki maslahat",
+        "desc": "Sizning maqsadlaringiz, tajribangiz va afzalliklaringizni aniqlaymiz. Imkoniyatlar va talablar haqida ma'lumot beramiz."
+      },
+      "step2": {
+        "title": "Ish o'rni tanlash",
+        "desc": "Tajriba va malakangizni hisobga olgan holda Bolgariyada mos ish variantlarini taklif qilamiz."
+      },
+      "step3": {
+        "title": "Hujjatlarni rasmiylashtirish",
+        "desc": "Viza va ish uchun ruxsatnoma olish uchun zarur bo'lgan barcha hujjatlarni yig'ish va tayyorlashda yordam beramiz."
+      },
+      "step4": {
+        "title": "Sayohatni tashkil etish",
+        "desc": "Chipta bron qilamiz, transfer va Bolgariyada kutib olishni tashkil etamiz."
+      },
+      "step5": {
+        "title": "Joyda hamrohlik qilish",
+        "desc": "Moslashishda, maishiy masalalarni hal qilishda va Bolgariyada zarur hujjatlarni rasmiylashtirishda yordam beramiz."
+      },
+      "step6": {
+        "title": "Doimiy qo'llab-quvvatlash",
+        "desc": "Bolgariyada ishlash davri mobaynida aloqada qolamiz va yuzaga keladigan savollarda yordam beramiz."
+      }
+    },
+    "testimonials": {
+      "title": "Mijozlarimizning fikrlari",
+      "testimonial1": {
+        "text": "\"Do'stimning tavsiyasi bilan YurYor markaziga murojaat qildim va bu eng yaxshi qaror edi. Menga barcha bosqichlarda hamrohlik qilishdi: hujjatlar bilan yordam berishdi, sayohatni tashkil etishdi va hatto aeroportda kutib olishdi. Hozir Sofiyada qurilishda ishlayapman, sharoitlar a'lo, hammasi rasmiy.\"",
+        "author": "Ulug'bek Ahmedov",
+        "position": "Quruvchi, Sofiya sh."
+      },
+      "testimonial2": {
+        "text": "\"YurYor xodimlariga professionalligi va e'tiborli munosabati uchun minnatdorchilik bildirmoqchiman. Barcha hujjatlarni tez va muammosiz rasmiylashtirishdi, tibbiy sug'urta bilan yordam berishdi. Hozirda sohil bo'yidagi mehmonxonada ishlayapman, sharoitlar va maoshdan juda mamnunman.\"",
+        "author": "Dilshod Hakimov",
+        "position": "Mehmonxona xodimi, Varna sh."
+      },
+      "testimonial3": {
+        "text": "\"Bolgariyaga ishlash uchun ketishga qaror qilganimda, menda ko'p shubha va qo'rquvlar bor edi. Ammo YurYor markazi tufayli hamma narsa silliq o'tdi. Menga to'qimachilik fabrikasiga ishga joylashishda yordam berishdi, mehnat sharoitlari yaxshi, jamoa do'stona. Qo'llab-quvvatlash va e'tibor uchun rahmat!\"",
+        "author": "Sevara Yo'ldosheva",
+        "position": "Tikuvchi, Plovdiv sh."
+      }
+    },
+    "contact_form": {
+      "title": "Boshlashga tayyormisiz?",
+      "desc": "So'rov qoldiring va mutaxassisimiz maslahat va keyingi qadamlarni muhokama qilish uchun siz bilan bog'lanadi.",
+      "methods": {
+        "phone": "Telefon",
+        "email": "Email",
+        "telegram": "Telegram"
+      },
+      "form": {
+        "name": "Ismingiz",
+        "phone": "Telefon raqami",
+        "email": "Email",
+        "service": "Qiziqtirayotgan xizmat",
+        "select_service": "Xizmatni tanlang",
+        "documents": "Hujjatlarni rasmiylashtirishda yordam",
+        "insurance": "Tibbiy sug'urta",
+        "travel": "Sayohatni tashkil etish",
+        "consultation": "Maslahat",
+        "other": "Boshqa",
+        "info": "Qo'shimcha ma'lumot",
+        "agreement": "Men shaxsiy ma'lumotlarni qayta ishlashga roziman",
+        "submit": "So'rov yuborish"
+      }
+    },
+    "faq": {
+      "title": "Tez-tez so'raladigan savollar",
+      "question1": {
+        "q": "Agar Bolgariyada ishlashni rejalashtirgan bo'lsam, nimadan boshlashim kerak?",
+        "a": "Siz bizning kontaktlarimizda ko'rsatilgan telefonlar orqali, saytdagi forma, Telegram yoki WhatsApp orqali Markazimizga murojaat qilishingiz mumkin. Biz qanday qadamlar qo'yish kerakligini aytib beramiz, hujjatlarni yig'ishda yordam beramiz va tekshirilgan ish beruvchilar bilan bog'laymiz."
+      },
+      "question2": {
+        "q": "D vizasini olish uchun qanday hujjatlar kerak?",
+        "a": "D vizasini olish uchun quyidagi hujjatlar kerak bo'ladi: xorijiy pasport (topshirish vaqtidan boshlab kamida 18 oy amal qilish muddati bo'lishi kerak), ish beruvchidan taklif, ish uchun ruxsatnoma, viza anketa, tibbiy sug'urta, sudlanmaganlik haqida ma'lumotnoma, fotosurat va vaziyatga qarab boshqa hujjatlar. Biz to'liq ro'yxatni taqdim etamiz va barcha kerakli hujjatlarni rasmiylashtirishda yordam beramiz."
+      },
+      "question3": {
+        "q": "Hujjatlar va sug'urta rasmiylashtirish qancha turadi?",
+        "a": "Xizmatlar narxi tanlangan paketga bog'liq va quyidagilarni o'z ichiga oladi: ishga joylashish masalalari bo'yicha maslahatlar, hujjatlarni yig'ish va rasmiylashtirishda yordam, tibbiy sug'urta, sayohatni tashkil etish, hamrohlik va qo'llab-quvvatlash. Aniq narx ma'lumoti uchun, iltimos, mutaxassislarimiz bilan bog'laning."
+      },
+      "question4": {
+        "q": "Ish beruvchi bilan muammolar bo'lganida yordam berasizmi?",
+        "a": "Ha, biz ish beruvchi bilan muammolar yuzaga kelganda mijozlarimizni qo'llab-quvvatlaymiz. Bolgariyadagi vakilimiz quyidagilarni bajarishi mumkin: Bolgariya mehnat qonunchiligi bo'yicha maslahat berish, ish beruvchi bilan muzokaralarda yordam berish, nizoli vaziyatlarni hal qilishga ko'maklashish, zarur bo'lganda, yangi ish topishda yordam berish. Biz har doim mijozlarimiz manfaatlarini ko'zlab ish tutamiz va har qanday nizolarni adolatli hal qilishga intilamiz."
+      },
+      "question5": {
+        "q": "Agar allaqachon Bolgariyada bo'lsam, yordam so'rab murojaat qilishim mumkinmi?",
+        "a": "Ha, albatta. Biz ham faqat chiqishni rejalashtirganlar bilan, ham allaqachon Bolgariyada ishlaydigan insonlar bilan ishlaymiz. Bolgariyadagi ofisimiz mehnat migrantlari uchun to'liq xizmatlar ko'rsatadi: huquqiy maslahatlar, hujjatlarni uzaytirish, maishiy masalalarni hal qilishda yordam, ish beruvchini almashtirish va boshqalar. Siz istalgan vaqtda bizga murojaat qilishingiz mumkin va biz kerakli yordamni ko'rsatamiz."
+      },
+      "more_questions": "Barcha savollarni ko'rish"
+    }
+  },
+  "services_employers": {
+    "title": "Bolgar ish beruvchilari uchun xizmatlar",
+    "intro": {
+      "title": "Kadrlar masalalarining kompleks yechimi",
+      "desc1": "YurYor markazi O'zbekistondan malakali mutaxassislarni jalb qilishdan manfaatdor bo'lgan bolgar kompaniyalariga to'liq xizmatlar spektrini taklif etadi. Biz xodimlarni tanlash, rasmiylashtirish va moslashtirish bo'yicha barcha tashvishlarni o'z zimmamizga olamiz.",
+      "desc2": "Bizning xizmatlarimiz ish beruvchilarga ishonchli xodimlarni topishga va ularga qulay moslashishni ta'minlashga yordam beradi, bu uzoq muddatli va o'zaro manfaatli hamkorlikka olib keladi. Biz jarayonlarning shaffofligini va to'liq huquqiy hamrohlikni kafolatlaymiz."
+    },
+    "services": {
+      "vacancies": {
+        "title": "Vakansiyalarni joylashtirish",
+        "service1": {
+          "title": "Standart joylashtirish",
+          "desc": "Markaz platformasida 30 kun davomida e'lon."
+        },
+        "service2": {
+          "title": "Vakansiyalarni ilgari surish",
+          "desc": "E'tiborni jalb qilish uchun VIP va TOP-e'lonlar."
+        },
+        "benefits": {
+          "title": "Bizning markaz orqali vakansiyalarni joylashtirish afzalliklari:",
+          "benefit1": "O'zbekistonda maqsadli auditoriyani keng qamrab olish",
+          "benefit2": "Bizning mutaxassislarimiz tomonidan nomzodlarni dastlabki tanlash",
+          "benefit3": "Nomzodlarga maxsus talablarni ko'rsatish imkoniyati",
+          "benefit4": "Ko'rishlar va javoblar soni haqida muntazam hisobotlar"
+        }
+      },
+      "interviews": {
+        "title": "Suhbatlarni o'tkazish",
+        "service1": {
+          "title": "Individual",
+          "desc": "Talablarga ko'ra aniq nomzodni tanlash."
+        },
+        "service2": {
+          "title": "Guruhli",
+          "desc": "Korxonalar uchun xodimlarni ommaviy tanlash."
+        },
+        "steps": {
+          "title": "Suhbat jarayoni qanday o'tadi:",
+          "step1": "Ish beruvchidan talablarni olish",
+          "step2": "Berilgan mezonlarga ko'ra nomzodlarni dastlabki tanlash",
+          "step3": "Onlayn-suhbatni tashkil etish (individual yoki guruhli)",
+          "step4": "Rezyume va suhbat natijalarini taqdim etish",
+          "step5": "Yakuniy qaror qabul qilishda yordam berish"
+        }
+      },
+      "documents": {
+        "title": "Hujjatlarni rasmiylashtirishda qo'llab-quvvatlash",
+        "service1": {
+          "title": "Maslahat va tuzatish",
+          "desc": "Hujjatlar to'plamini talablarga muvofiqligini tekshirish."
+        },
+        "service2": {
+          "title": "Anketalar va arizalarni to'ldirish",
+          "desc": "Vizalar va ruxsatnomalar uchun hujjatlarni tayyorlashda yordam."
+        },
+        "service3": {
+          "title": "Huquqiy hamrohlik",
+          "desc": "Mehnat shartnomalari tayyorlash, viza qo'llab-quvvatlash."
+        },
+        "benefits": {
+          "title": "Nima uchun hujjatlarni rasmiylashtirish ishini mutaxassislarga ishonish kerak:",
+          "benefit1": "Viza yoki ish uchun ruxsatnoma rad etilishi xavfini kamaytirish",
+          "benefit2": "Hujjatlarni yig'ish va tayyorlashda vaqtni tejash",
+          "benefit3": "Qonunchilik barcha talablariga muvofiqlik",
+          "benefit4": "Topshirishdan tortib olishgacha bo'lgan barcha bosqichlarda hamrohlik"
+        }
+      },
+      "adaptation": {
+        "title": "O'qitish va moslashish",
+        "service1": {
+          "title": "Bolgariyada ishlash bo'yicha ko'rsatma",
+          "desc": "Qoidalar, turmush tarzi, xususiyatlar."
+        },
+        "service2": {
+          "title": "Bolgar va rus tillari kurslari",
+          "desc": "Samaradorlikni oshirish uchun."
+        },
+        "service3": {
+          "title": "Mutaxassislik bo'yicha ta'lim",
+          "desc": "Ish beruvchining aniq so'rovlariga ko'ra tayyorgarlik."
+        },
+        "adaptation_program": {
+          "title": "Moslashish dasturi quyidagilarni o'z ichiga oladi:",
+          "item1": "Bolgariya madaniyati va an'analari bilan tanishish",
+          "item2": "Ish joyida xulq-atvor qoidalarini o'rganish",
+          "item3": "Samarali muloqot uchun asosiy til tayyorgarligi",
+          "item4": "Xodimning huquq va majburiyatlari bilan tanishish",
+          "item5": "Maishiy masalalar bo'yicha maslahatlar (yashash joyi, transport, aloqa)"
+        }
+      },
+      "adaptation_support": {
+        "title": "Bolgariyada xodimlarni moslashtirish bo'yicha yordam",
+        "desc1": "Biz O'zbekistondan kelgan xodimlarni Bolgariyaga kelgandan keyin kuzatib boramiz, ularga yangi muhitga tezroq moslashishda yordam beramiz. Kundalik masalalarda qo'llab-quvvatlaymiz (uy-joy, transport, aloqa, bank va boshqalar), ular o'zlarini ishonchli his qilishlari va ishga diqqatlarini qaratishlari uchun.",
+        "monitoring": {
+          "title": "Jarayonlarni kuzatish va maslahatlar",
+          "desc": "Ishchilarning bo'lishi va mehnat faoliyatining asosiy jihatlarini kuzatib boramiz:",
+          "item1": "Nostandart vaziyatlarni tezda hal qilishda yordam berish",
+          "item2": "Ijtimoiy moslashish va integratsiya bilan bog'liq masalalar bo'yicha maslahat berish",
+          "item3": "Muhim ma'lumot almashish uchun ish beruvchi bilan aloqani saqlash"
+        },
+        "analysis": {
+          "title": "Muammolarni tahlil qilish va bartaraf etish",
+          "desc": "Qiyinchiliklar yoki mehnat samaradorligi pasayishida, sabablarni aniqlashga yordam beramiz:",
+          "item1": "Stress",
+          "item2": "Shartlarni tushunmaslik",
+          "item3": "Madaniy farqlar",
+          "desc2": "Keyin har ikki tomonning samaradorligi va qoniqishini oshirishga qaratilgan yechimlarni taklif qilamiz."
+        },
+        "conflict": {
+          "title": "Ziddiyatlarni hal qilishda ko'maklashish",
+          "desc": "Quyidagilarni hal qilishda yordam beramiz:",
+          "item1": "Ish beruvchi va xodim o'rtasidagi nizoli vaziyatlar",
+          "item2": "Jamoada ichki ziddiyatlar",
+          "desc2": "Bizning maqsadimiz - uyg'un ish muhitini saqlash va uzoq muddatli hamkorlikni ta'minlash."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Nima uchun ish beruvchilar YurYorni tanlashadi",
+      "benefit1": {
+        "title": "Tekshirilgan nomzodlar",
+        "desc": "Biz barcha nomzodlarning malakasi va tajribasini sinchkovlik bilan tekshiramiz, sizga faqat mos keladigan nomzodlarni taqdim etamiz."
+      },
+      "benefit2": {
+        "title": "Huquqiy sofdillik",
+        "desc": "Barcha ishga joylashishlar Bolgariya qonunchiligi va xalqaro me'yorlarga to'liq muvofiq ravishda amalga oshiriladi."
+      },
+      "benefit3": {
+        "title": "Vaqtni tejash",
+        "desc": "Biz tanlashdan tortib hujjatlarni rasmiylashtirish va xodimlarni moslashtirish jarayonigacha bo'lgan butun jarayonni o'z zimmamizga olamiz."
+      },
+      "benefit4": {
+        "title": "Kommunikatsion qo'llab-quvvatlash",
+        "desc": "Bizning mutaxassislarimiz til to'sig'ini yengishga yordam beradi va tomonlar o'rtasida samarali aloqani ta'minlaydi."
+      },
+      "benefit5": {
+        "title": "Sifat kafolatlari",
+        "desc": "Tanlangan xodimlar uchun kafolat davrini taqdim etamiz va zarur bo'lganda almashtirish bilan yordam beramiz."
+      },
+      "benefit6": {
+        "title": "Uzoq muddatli hamkorlik",
+        "desc": "Bizning maqsadimiz - har bir ish beruvchi bilan o'zaro manfaatli va uzoq muddatli munosabatlarni o'rnatish."
+      }
+    },
+    "testimonials": {
+      "title": "Mijozlarimizning fikrlari",
+      "testimonial1": {
+        "text": "\"YurYor markazi bilan bir yildan ortiq hamkorlik qilmoqdamiz. Shu vaqt ichida markaz orqali ishlab chiqarishimiz uchun 15 nafar xodimni yolladik. Barcha jarayonlar aniq tashkil etilgan, xodimlar malakali va mas'uliyatli. Ayniqsa, xodimlarni moslashtirishda yordam berganliklarini qadrlaymiz — bu ishlash davriga kirishish muddatini sezilarli darajada qisqartirdi.\"",
+        "author": "Stefan Dimitrov",
+        "position": "Ishlab chiqarish direktori, \"Balkan Plastik\""
+      },
+      "testimonial2": {
+        "text": "\"Bizning mehmonxona turistik mavsumning boshlanishi oldidan, xodimlar shoshilinch talab qilinganda YurYorga murojaat qildi. Markaz tezda bizga turli xizmat ko'rsatish sohalarida ishlash uchun 8 kishini tanladi. Barcha xodimlarning allaqachon rus tilining bazaviy darajasi bor ekanligi va zarur bolgar iboralarini tez o'zlashtirishi mamnun qildi.\"",
+        "author": "Mariya Petrova",
+        "position": "HR-menejer, \"Quyoshli qirg'oq SPA Mehmonxona\""
+      },
+      "testimonial3": {
+        "text": "\"Qurilish kompaniyamiz uchun xodimlarni tanlashdagi professional yondashuvga YurYor jamoasiga minnatdorchilik bildirmoqchimiz. Barcha huquqiy masalalar bizning ishtirokimizsiz hal qilindi, hujjatlar to'g'ri rasmiylashtirildi. O'zbekistondan kelgan xodimlar malaka va mehnat intizomining yuqori darajasini ko'rsatdilar.\"",
+        "author": "Georgiy Ivanov",
+        "position": "Bosh direktor, \"StroyKompleks Sofiya\""
+      }
+    },
+    "vacancy_form": {
+      "title": "Vakansiya joylashtirish",
+      "intro": "Quyidagi shaklni to'ldiring va mutaxassisimiz tafsilotlarni aniqlashtirish va vakansiyani joylashtirish uchun siz bilan bog'lanadi",
+      "form": {
+        "company_name": "Kompaniya nomi",
+        "industry": "Soha",
+        "select_industry": "Sohani tanlang",
+        "construction": "Qurilish",
+        "hospitality": "Mehmonxona biznesi va turizm",
+        "manufacturing": "Ishlab chiqarish",
+        "agriculture": "Qishloq xo'jaligi",
+        "service": "Xizmat ko'rsatish sohasi",
+        "other": "Boshqa",
+        "contact_person": "Aloqachi shaxs",
+        "position": "Aloqachi shaxs lavozimi",
+        "email": "Email",
+        "phone": "Telefon",
+        "vacancy_title": "Vakansiya nomi",
+        "employees_count": "Xodimlar soni",
+        "salary": "Ish haqi (EUR)",
+        "salary_placeholder": "Misol uchun: 700-900",
+        "vacancy_description": "Vakansiya tavsiifi",
+        "requirements": "Nomzodlarga talablar",
+        "conditions": "Ish sharoitlari",
+        "additional_info": "Qo'shimcha ma'lumot",
+        "file_upload": "Fayl biriktirish (PDF, 5 MB gacha)",
+        "agreement": "Men <a href=\"/privacy-policy\">maxfiylik siyosati</a> va shaxsiy ma'lumotlarni qayta ishlash bilan roziman",
+        "submit": "Vakansiyani yuborish"
+      }
+    },
+    "faq": {
+      "title": "Tez-tez so'raladigan savollar",
+      "question1": {
+        "q": "Ishga joylashish jarayoni qancha vaqt oladi?",
+        "a": "Hujjatlarni rasmiylashtirish va ishga joylashishning o'rtacha muddati 4-6 oyni tashkil etadi. Bu hujjatlarni tayyorlash, viza olish, sayohatni tashkil etish va yangi joyga moslashishni o'z ichiga oladi."
+      },
+      "question2": {
+        "q": "Xizmatlaringiz qancha turadi?",
+        "a": "Xizmatlar narxi tanlangan paket va individual ehtiyojlarga bog'liq. Biz migrantlar va ish beruvchilar uchun moslashuvchan tariflarni taklif qilamiz. Aniq narxni maslahat vaqtida menejerimiz bilan muhokama qilish mumkin."
+      },
+      "question3": {
+        "q": "Siz ishga joylashishni kafolatlaysizmi?",
+        "a": "Biz 100% ishga joylashishni kafolatlay olmaymiz, lekin maksimal yordam ko'rsatish uchun barcha harakatlarni qilamiz. Bizning markaz tekshirilgan ish beruvchilar bilan hamkorlik qiladi va nomzodlarning professional ko'nikmalari va tajribasini hisobga olgan holda vakansiyalarni tanlaydi."
+      },
+      "question4": {
+        "q": "Mening shaxsiy ma'lumotlarim qanday himoyalangan?",
+        "a": "Biz shaxsiy ma'lumotlarni himoya qilish qonunchiligiga qat'iy rioya qilamiz. Barcha taqdim etilgan ma'lumotlar maxfiy qayta ishlanadi, himoyalangan ma'lumotlar bazalarida saqlanadi va faqat ishga joylashish maqsadlarida ishlatiladi."
+      },
+      "question5": {
+        "q": "Bepul maslahat olish mumkinmi?",
+        "a": "Ha, biz 15 daqiqagacha bo'lgan dastlabki bepul maslahat beramiz. Maslahat davomida mutaxassislarimiz asosiy savollaringizga javob beradilar va keyingi qadamlarni aniqlashda yordam beradilar."
+      }
+    }
+  },
+  "blog_post_visa_d": {
+    "title": "2025 yilda Bolgariyada ishlash uchun D vizasi haqida bilish kerak bo'lgan hamma narsa",
+    "meta": {
+      "date": "15 aprel 2025",
+      "category": "Vizalar",
+      "author": "Muallif: Alisher Rahimov"
+    },
+    "intro": "D vizasi – bu chet elliklar uchun Bolgariyada qonuniy asosda bo'lish va ishlash imkonini beruvchi Bolgariyaning milliy uzoq muddatli vizasi. Bu yashash uchun ruxsatnoma (YUR) olish va ishga joylashish imkoniyati uchun birinchi va majburiy qadam. Ushbu maqolada biz Bolgariyada ishlashni rejalashtirgan O'zbekiston fuqarolari uchun D vizasini olish jarayoni haqida batafsil ma'lumot beramiz.",
+    "sections": {
+      "purpose": {
+        "title": "D vizasi nima uchun kerak?",
+        "desc": "D vizasi quyidagi imkoniyatlarni beradi:",
+        "list": [
+          "Bolgariyada 180 kungacha qonuniy bo'lish",
+          "Ishlash uchun ruxsatnoma olish va rasmiy ishga joylashish",
+          "Yashash uchun ruxsatnoma olish uchun hujjatlar topshirish",
+          "Shengen hududiga davlatlar bo'ylab sayohat qilish (ba'zi cheklovlar bilan)"
+        ],
+        "note": "D vizasining o'zi Bolgariyada doimiy yashash huquqini bermaydi. Mamlakatga kirganingizdan so'ng, sizga YUR rasmiylashtirishingiz kerak bo'ladi, bu qonuniy yashash va ishlash uchun asosiy hujjatingiz bo'ladi.",
+        "important": "E'tibor bering: 2025 yil yanvaridan D vizasini rasmiylashtirish qoidalariga o'zgartirishlar kiritildi. Endi jarayon biroz soddalashtirildi, lekin tibbiy sug'urtaga bo'lgan talablar qattiqroq bo'ldi."
+      },
+      "documents": {
+        "title": "D vizasi uchun zarur hujjatlar",
+        "desc": "Bolgariyada ishlash uchun D vizasini olish uchun O'zbekiston fuqarolariga quyidagi hujjatlar to'plamini tayyorlash kerak:",
+        "list": [
+          "Xorijiy pasport — topshirish vaqtida amal qilish muddati kamida 18 oy bo'lishi kerak.",
+          "Viza uchun anketa — bolgar yoki ingliz tilida to'ldirilgan.",
+          "Rasmlar — 3,5x4,5 sm o'lchamdagi 2 ta rangli rasm, oq fonda, 6 oydan ko'p bo'lmagan muddatda suratga olingan.",
+          "Ish beruvchidan taklif — bolgar kompaniyasidan lavozimi, ish haqi va mehnat shartnomasi muddatini ko'rsatgan holda rasmiy xat.",
+          "Ish uchun ruxsatnoma — ish beruvchi Bolgariya Bandlik agentligidan olgan hujjat.",
+          "Mehnat shartnomasi — dastlabki yoki imzolangan mehnat shartnomasining nusxasi.",
+          "Tibbiy sug'urta — butun bo'lish davri uchun polis, minimal qoplama — 30 000 yevro.",
+          "Sudlanmaganlik to'g'risidagi ma'lumotnoma — apostil bilan tasdiqlangan va bolgar tiliga tarjima qilingan.",
+          "Malaka tasdiq — diplomlar, sertifikatlar, mehnat daftarchasi (tarjima bilan).",
+          "Yashash joyini tasdiqlash — Bolgariyada mehmonxona bron qilish yoki uy-joy ijarasi shartnomasi.",
+          "Moliyaviy holat tasdiq — bank hisob qaydnomasidan ko'chirma yoki daromad to'g'risida ma'lumotnoma."
+        ]
+      },
+      "application": {
+        "title": "Hujjatlarni topshirish tartibi",
+        "desc": "D vizasi uchun hujjatlarni topshirish jarayoni bir necha bosqichlarni o'z ichiga oladi:",
+        "steps": {
+          "step1": {
+            "title": "Hujjatlarni tayyorlash",
+            "desc": "Yuqoridagi ro'yxatdan barcha kerakli hujjatlarni to'plang. E'tibor bering, O'zbekistonda berilgan barcha hujjatlar qonuniylashtirilishi (apostil qo'yilishi) va bolgar tiliga tarjima qilinishi kerak."
+          },
+          "step2": {
+            "title": "Hujjatlar topshirish uchun yozilish",
+            "desc": "Toshkentdagi Bolgariya elchixonasiga hujjatlar topshirish uchun yoziling. Yozilish elchixonaning rasmiy sayti orqali yoki telefon orqali amalga oshiriladi."
+          },
+          "step3": {
+            "title": "Hujjatlarni topshirish",
+            "desc": "Belgilangan kunda elchixonaga to'liq hujjatlar to'plami bilan tashrif buyuring. O'zingiz bilan tekshirish uchun barcha hujjatlarning asl nusxalarini ham olib keling."
+          },
+          "step4": {
+            "title": "Viza yig'imini to'lash",
+            "desc": "D vizasi uchun ariza ko'rib chiqish uchun viza yig'imi 100 yevroni tashkil etadi. To'lovni AQSh dollari yoki O'zbek so'mida joriy kurs bo'yicha amalga oshirish mumkin."
+          },
+          "step5": {
+            "title": "Qaror kutish",
+            "desc": "Hujjatlarni ko'rib chiqish muddati 14 dan 30 ish kunigacha. Ba'zi hollarda jarayon ko'proq vaqt olishi mumkin."
+          },
+          "step6": {
+            "title": "Vizani olish",
+            "desc": "Tasdiqlangandan so'ng, vizali pasportni olish uchun elchixonaga qayta tashrif buyurishingiz kerak bo'ladi."
+          }
+        }
+      },
+      "timeframes": {
+        "title": "Muddatlar va narxlar",
+        "desc": "Quyidagi vaqt va moliyaviy jihatlarni hisobga olish muhim:",
+        "timeframes": {
+          "title": "Rasmiylashtirish muddatlari",
+          "list": [
+            "Hujjatlarni yig'ish: 2-4 hafta",
+            "Arizani ko'rib chiqish: 14-30 ish kuni",
+            "Hujjatlarni yig'ishdan tortib vizani olishgacha bo'lgan umumiy vaqt: 1,5-3 oy"
+          ]
+        },
+        "costs": {
+          "title": "Narx",
+          "list": [
+            "Viza yig'imi: 100 yevro",
+            "Tibbiy sug'urta: 150 dan 300 yevrogacha (muddat va qoplamaga bog'liq)",
+            "Hujjatlarni tarjima qilish va qonuniylashtirish: 100-200 yevro",
+            "Qo'shimcha xarajatlar (rasm, ma'lumotnomalar va boshqalar): taxminan 50 yevro"
+          ]
+        },
+        "comparison": {
+          "title": "2024 va 2025 yillarda D vizasini rasmiylashtirish qiymatini taqqoslash",
+          "headers": [
+            "Xarajat moddalari",
+            "2024 yil",
+            "2025 yil"
+          ],
+          "rows": [
+            [
+              "Viza yig'imi",
+              "100 yevro",
+              "100 yevro"
+            ],
+            [
+              "Tibbiy sug'urta",
+              "120-250 yevro",
+              "150-300 yevro"
+            ],
+            [
+              "Tarjima va qonuniylashtirish",
+              "80-180 yevro",
+              "100-200 yevro"
+            ],
+            [
+              "Sudlanmaganlik to'g'risidagi ma'lumotnoma",
+              "30 yevro",
+              "35 yevro"
+            ],
+            [
+              "Jami",
+              "330-560 yevro",
+              "385-635 yevro"
+            ]
+          ]
+        }
+      },
+      "faq": {
+        "title": "Tez-tez so'raladigan savollar",
+        "questions": {
+          "q1": {
+            "q": "Men ish beruvchidan taklifsiz D vizasi uchun hujjat topshirishim mumkinmi?",
+            "a": "Yo'q, ishchi D vizasini olish uchun bolgar ish beruvchidan taklif va u Bolgariya Bandlik agentligidan olgan ish uchun ruxsatnoma bo'lishi shart."
+          },
+          "q2": {
+            "q": "D vizasining amal qilish muddati qancha?",
+            "a": "D vizasi 180 kungacha (6 oy) muddatga beriladi. Shu vaqt ichida siz Bolgariyaga kirishingiz va yashash uchun ruxsatnoma olish uchun hujjat topshirishingiz kerak."
+          },
+          "q3": {
+            "q": "D vizasi bilan Yevropa bo'ylab sayohat qilishim mumkinmi?",
+            "a": "Bolgar D vizasi Shengen hududiga davlatlar orqali tranzit o'tish imkonini beradi, lekin ularda uzoq muddat qolish huquqini bermaydi. Yevropa bo'ylab erkin harakatlanish uchun sizga Shengen vizasi yoki Bolgariyada yashash uchun ruxsatnoma kerak bo'ladi."
+          },
+          "q4": {
+            "q": "Viza berishni rad etishsa nima qilish kerak?",
+            "a": "Rad etish holatida siz sababni ko'rsatgan yozma xabarnoma olasiz. Siz 14 kun ichida apellyatsiya topshirishingiz yoki kamchiliklarni bartaraf etib, hujjatlarni qayta topshirishingiz mumkin. Bizning mutaxassislarimiz rad etish sababini tushunishda va yangi hujjatlar to'plamini tayyorlashda yordam berishi mumkin."
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Xulosa",
+        "desc1": "D vizasini olish — Bolgariyada qonuniy ishga joylashish yo'lidagi muhim qadam. Hujjatlarni to'g'ri tayyorlash va barcha talablarga rioya qilish bilan siz muvaffaqiyatli viza olishingiz mumkin.",
+        "desc2": "YurYor markazi O'zbekiston fuqarolariga D vizasini rasmiylashtirish bo'yicha keng qamrovli qo'llab-quvvatlashni taklif etadi. Bizning mutaxassislarimiz sizga barcha kerakli hujjatlarni to'plashda, anketani to'g'ri to'ldirishda va elchixonadagi suhbatga tayyorlanishda yordam beradi."
+      },
+      "author_bio": {
+        "title": "Muallif haqida",
+        "name": "Alisher Rahimov",
+        "desc": "YurYor markazi direktori, 10 yillik tajribaga ega migratsiya huquqi bo'yicha ekspert. O'zbekiston fuqarolarini YeI mamlakatlarida ishga joylashish masalalarida ixtisoslashgan."
+      }
+    },
+    "footer": {
+      "tags": {
+        "title": "Teglar:",
+        "tags": [
+          "D vizasi",
+          "Bolgariyada ishlash",
+          "hujjatlar",
+          "ishga joylashish"
+        ]
+      },
+      "share": {
+        "title": "Ulashish:",
+        "telegram": "Telegram",
+        "whatsapp": "WhatsApp",
+        "facebook": "Facebook"
+      },
+      "navigation": {
+        "previous": {
+          "label": "Oldingi maqola",
+          "title": "Bolgariyada yashash uchun ruxsatnoma qanday olinadi"
+        },
+        "next": {
+          "label": "Keyingi maqola",
+          "title": "Bolgariyada uy-joy topish va ijaraga olish qanday"
+        }
+      },
+      "related": {
+        "title": "O'xshash maqolalar",
+        "post1": {
+          "title": "Bolgariyada yashash uchun ruxsatnoma qanday olinadi",
+          "date": "20 mart 2025"
+        },
+        "post2": {
+          "title": "Bolgariyada ishlash uchun qanday hujjatlar kerak",
+          "date": "1 mart 2025"
+        },
+        "post3": {
+          "title": "Elchixonadagi suhbatga qanday tayyorlanish kerak",
+          "date": "10 fevral 2025"
+        }
+      },
+      "sidebar": {
+        "help": {
+          "title": "Yordam kerakmi?",
+          "desc": "Bizning mutaxassislarimiz barcha savollaringizga javob berishga va hujjatlarni rasmiylashtirishga yordam berishga tayyor",
+          "call": "Qo'ng'iroq qilish",
+          "telegram": "Telegram"
+        },
+        "popular": {
+          "title": "Mashhur maqolalar",
+          "post1": {
+            "title": "Bolgariyada kasblarga ko'ra o'rtacha ish haqi",
+            "date": "15 mart 2025"
+          },
+          "post2": {
+            "title": "Boshlang'ichlar uchun bolgar tili",
+            "date": "28 mart 2025"
+          },
+          "post3": {
+            "title": "Bolgariyada uy-joy topish va ijaraga olish qanday",
+            "date": "10 aprel 2025"
+          }
+        },
+        "subscribe": {
+          "title": "Yangilanishlarga obuna bo'ling",
+          "desc": "Yangi maqolalar va yangiliklarni emailingizga oling",
+          "placeholder": "Sizning emailingiz",
+          "button": "Obuna bo'lish"
+        },
+        "categories": {
+          "title": "Kategoriyalar",
+          "visas": "Vizalar",
+          "work": "Ish",
+          "documents": "Hujjatlar",
+          "life": "Bolgariyada hayot",
+          "tips": "Maslahatlar"
+        }
+      }
+    }
+  }
+}

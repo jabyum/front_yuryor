@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- 1. Kodировка и адаптивность -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- 2. Заголовок и описание -->
+    <title data-i18n="services_title">YurYor – Услуги | Комплексные решения для мигрантов и работодателей</title>
+    <meta name="description" data-i18n="services_description"
+        content="Услуги центра YurYor: полная поддержка граждан Узбекистана при трудоустройстве в Болгарии и болгарских компаний в поиске квалифицированных кадров. Оформление документов, трудоустройство, адаптация." />
+
+    <!-- 3. Каноникал и мультиязычность -->
+    <link rel="canonical" href="https://yuryoq.uz/HTML/RU/services.html" />
+    <link rel="alternate" href="https://yuryoq.uz/HTML/UZ/services.html" hreflang="uz" />
+    <link rel="alternate" href="https://yuryoq.uz/HTML/RU/services.html" hreflang="ru" />
+    <link rel="alternate" href="https://yuryoq.uz/HTML/BG/services.html" hreflang="bg" />
+
+    <!-- 4. Индексация -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- 5. Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="YurYor – Услуги | Комплексные решения для мигрантов и работодателей" />
+    <meta property="og:description"
+        content="Услуги центра YurYor: полная поддержка граждан Узбекистана при трудоустройстве в Болгарии и болгарских компаний в поиске квалифицированных кадров." />
+    <meta property="og:url" content="https://yuryoq.uz/HTML/RU/services.html" />
+    <meta property="og:image" content="https://yuryoq.uz/IMG/services/overview.png" />
+    <meta property="og:site_name" content="YurYor" />
+
+    <!-- 6. CSS -->
+    <link rel="stylesheet" href="../../CSS/style.css">
+    <link rel="stylesheet" href="../../CSS/responsive.css">
+    <link rel="stylesheet" href="../../CSS/services.css">
+
+    <!-- Иконки Font Awesome для социальных сетей и мессенджеров -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="../../IMG/favicon.ico" type="image/x-icon">
+
+    <!-- 7. Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="YurYor – Услуги | Комплексные решения для мигрантов и работодателей" />
+    <meta name="twitter:description"
+        content="Услуги центра YurYor: полная поддержка граждан Узбекистана при трудоустройстве в Болгарии и болгарских компаний в поиске квалифицированных кадров." />
+    <meta name="twitter:image" content="https://yuryoq.uz/IMG/services/overview.png" />
+
+    <!-- 8. Структурированные данные JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Service",
+            "name": "Услуги для мигрантов",
+            "url": "https://yuryoq.uz/HTML/RU/services-migrants.html",
+            "description": "Полная поддержка для граждан Узбекистана, планирующих работать в Болгарии",
+            "provider": {
+              "@type": "Organization",
+              "name": "YurYor"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Service",
+            "name": "Услуги для работодателей",
+            "url": "https://yuryoq.uz/HTML/RU/services-employers.html",
+            "description": "Помощь болгарским компаниям в привлечении и оформлении трудовых мигрантов из Узбекистана",
+            "provider": {
+              "@type": "Organization",
+              "name": "YurYor"
+            }
+          }
+        }
+      ]
+    }
+    </script>
+    <!-- Иконки Font Awesome для социальных сетей и мессенджеров -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="../../IMG/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../../IMG/logo.svg" alt="YurYor - Поддержка трудовых мигрантов из Узбекистана">
+                    </a>
+                </div>
+
+                <div class="lang-switcher">
+                    <button class="lang-switcher button" data-lang="ru">РУ</button>
+                    <button class="lang-switcher button" data-lang="uz">UZ</button>
+                    <button class="lang-switcher button" data-lang="bg">BG</button>
+                </div>
+
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="about.html" data-i18n="header.about">Markaz haqida</a></li>
+                        <li class="dropdown">
+                            <a href="services.html" data-i18n="header.services">Xizmatlar</a>
+                            <div class="dropdown-content">
+                                <a href="services-migrants.html" data-i18n="header.for_migrants">Migrantlar uchun</a>
+                                <a href="services-employers.html" data-i18n="header.for_employers">Ish beruvchilar
+                                    uchun</a>
+                            </div>
+                        </li>
+                        <li><a href="info.html" data-i18n="header.useful_info">Foydali ma'lumotlar</a></li>
+                        <li><a href="blog.html" data-i18n="header.blog">Blog</a></li>
+                        <li><a href="contacts.html" data-i18n="header.contacts">Kontaktlar</a></li>
+                    </ul>
+                </nav>
+
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Заголовок страницы -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-i18n="services.title">YurYor markazi xizmatlari</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Главная</a> / <span>Услуги</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Вступительная информация -->
+    <section class="services-intro">
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-text">
+                    <h2 data-i18n="services.intro.title">Migrantlar va ish beruvchilar uchun to'liq qo'llab-quvvatlash
+                    </h2>
+                    <p data-i18n="services.intro.desc1">
+                        YurYor markazi O'zbekiston fuqarolarini Bolgariyada ishga joylashtirishda keng ko'lamli
+                        xizmatlarni taqdim etadi, shuningdek bolgar ish beruvchilariga malakali xodimlarni topish va
+                        rasmiylashtirishda yordam beradi.
+                    </p>
+                    <p data-i18n="services.intro.desc2">
+                        Bizning maqsadimiz — mehnat migrantlari va ish beruvchilar o'rtasida barcha bosqichlarda: ish
+                        joylarini tanlashdan tortib, hujjatlarni rasmiylashtirish va ish joyida muvaffaqiyatli
+                        moslashishgacha bo'lgan hamkorlikning shaffof, samarali va o'zaro manfaatli bo'lishini
+                        ta'minlashdir.
+                    </p>
+                </div>
+                <div class="intro-image">
+                    <img src="../../IMG/services/overview.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Выбор категории услуг -->
+    <section class="services-categories">
+        <div class="container">
+            <div class="categories-grid">
+                <div class="category-card migrants">
+                    <div class="category-content">
+                        <h3 data-i18n="services.categories.migrants.title">Migrantlar uchun xizmatlar</h3>
+                        <p data-i18n="services.categories.migrants.desc">
+                            Bolgariyada ishlashni rejalashtirgan O'zbekiston fuqarolari uchun to'liq yordam
+                        </p>
+                        <ul class="category-services">
+                            <li data-i18n="services.categories.migrants.services.documents">Hujjatlar va D vizasini
+                                rasmiylashtirish</li>
+                            <li data-i18n="services.categories.migrants.services.insurance">Tibbiy sug'urta</li>
+                            <li data-i18n="services.categories.migrants.services.travel">Sayohatni tashkil etish</li>
+                            <li data-i18n="services.categories.migrants.services.support">Maslahat qo'llab-quvvatlashi
+                            </li>
+                        </ul>
+                        <a href="services-migrants.html" class="btn btn-primary"
+                            data-i18n="services.categories.migrants.details">
+                            Xizmatlar haqida batafsil ma'lumot
+                        </a>
+                    </div>
+                    <div class="category-image">
+                        <img src="../../IMG/services/migrants-category.jpg" alt="" />
+                    </div>
+                </div>
+
+                <div class="category-card employers">
+                    <div class="category-content">
+                        <h3 data-i18n="services.categories.employers.title">Ish beruvchilar uchun xizmatlar</h3>
+                        <p data-i18n="services.categories.employers.desc">
+                            O'zbekistondan mehnat migrantlarini jalb qilish va rasmiylashtirishda bolgar kompaniyalariga
+                            yordam
+                        </p>
+                        <ul class="category-services">
+                            <li data-i18n="services.categories.employers.services.vacancies">Vakansiyalarni
+                                joylashtirish</li>
+                            <li data-i18n="services.categories.employers.services.recruitment">Xodimlarni tanlash va
+                                suhbatlar</li>
+                            <li data-i18n="services.categories.employers.services.documents">Hujjatlarni
+                                rasmiylashtirish</li>
+                            <li data-i18n="services.categories.employers.services.adaptation">Xodimlarni moslashtirishda
+                                yordam</li>
+                        </ul>
+                        <a href="services-employers.html" class="btn btn-primary"
+                            data-i18n="services.categories.employers.details">
+                            Xizmatlar haqida batafsil ma'lumot
+                        </a>
+                    </div>
+                    <div class="category-image">
+                        <img src="../../IMG/services/employers-category.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Популярные услуги -->
+    <section class="popular-services">
+        <div class="container">
+            <h2 data-i18n="services.popular_services.title">Mashhur xizmatlar</h2>
+            <p class="section-intro" data-i18n="services.popular_services.intro">
+                Migrantlar va ish beruvchilar uchun eng talab qilinadigan xizmatlar
+            </p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-passport"></i></div>
+                    <h3 data-i18n="services.popular_services.service1.title">D vizasini rasmiylashtirish</h3>
+                    <p data-i18n="services.popular_services.service1.desc">
+                        Bolgariyaga ish vizasini olish uchun hujjatlarni yig'ish va tayyorlashda yordam,
+                        rasmiylashtirish tartibi bo'yicha maslahatlar
+                    </p>
+                    <a href="services-migrants.html#visa" class="service-link"
+                        data-i18n="services.popular_services.service1.link">
+                        Migrantlar uchun
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-users"></i></div>
+                    <h3 data-i18n="services.popular_services.service2.title">Xodimlarni tanlash</h3>
+                    <p data-i18n="services.popular_services.service2.desc">
+                        Bolgar ish beruvchisi talablari va mezonlariga ko'ra O'zbekistondan malakali kadrlarni qidirish
+                        va tanlash
+                    </p>
+                    <a href="services-employers.html#recruitment" class="service-link"
+                        data-i18n="services.popular_services.service2.link">
+                        Ish beruvchilar uchun
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-file-alt"></i></div>
+                    <h3 data-i18n="services.popular_services.service3.title">Huquqiy hamrohlik</h3>
+                    <p data-i18n="services.popular_services.service3.desc">
+                        Mehnat shartnomalarini tayyorlash va tekshirish, ruxsatnomalar va hujjatlarni rasmiylashtirishda
+                        yordam
+                    </p>
+                    <div class="service-links">
+                        <a href="services-migrants.html#legal" class="service-link"
+                            data-i18n="services.popular_services.service3.links.migrants">
+                            Migrantlar uchun
+                        </a>
+                        <a href="services-employers.html#legal" class="service-link"
+                            data-i18n="services.popular_services.service3.links.employers">
+                            Ish beruvchilar uchun
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-home"></i></div>
+                    <h3 data-i18n="services.popular_services.service4.title">Joyda moslashish</h3>
+                    <p data-i18n="services.popular_services.service4.desc">
+                        Migrantlarga Bolgariyaga kelganidan keyin yordam, maishiy va ish masalalarini hal qilishda
+                        ko'maklashish
+                    </p>
+                    <div class="service-links">
+                        <a href="services-migrants.html#adaptation" class="service-link"
+                            data-i18n="services.popular_services.service4.links.migrants">
+                            Migrantlar uchun
+                        </a>
+                        <a href="services-employers.html#adaptation" class="service-link"
+                            data-i18n="services.popular_services.service4.links.employers">
+                            Ish beruvchilar uchun
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-plane"></i></div>
+                    <h3 data-i18n="services.popular_services.service5.title">Sayohatni tashkil etish</h3>
+                    <p data-i18n="services.popular_services.service5.desc">
+                        Chipta bron qilish, transfer tashkil etish va logistika masalalarini hal qilishda yordam
+                    </p>
+                    <a href="services-migrants.html#travel" class="service-link"
+                        data-i18n="services.popular_services.service5.link">
+                        Migrantlar uchun
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-comments"></i></div>
+                    <h3 data-i18n="services.popular_services.service6.title">24/7 maslahatlar</h3>
+                    <p data-i18n="services.popular_services.service6.desc">
+                        Ishga joylashish va moslashish bo'yicha barcha masalalarda sutkalik axborot va huquqiy yordam
+                    </p>
+                    <div class="service-links">
+                        <a href="services-migrants.html#support" class="service-link"
+                            data-i18n="services.popular_services.service6.links.migrants">
+                            Migrantlar uchun
+                        </a>
+                        <a href="services-employers.html#support" class="service-link"
+                            data-i18n="services.popular_services.service6.links.employers">
+                            Ish beruvchilar uchun
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Процесс сотрудничества -->
+    <section class="process-section">
+        <div class="container">
+            <h2 data-i18n="services.process.title">Biz qanday ishlaymiz</h2>
+            <p class="section-intro" data-i18n="services.process.intro">
+                Migrantlar va ish beruvchilar bilan hamkorlik qilish yondashuvimiz
+            </p>
+
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 data-i18n="services.process.step1.title">Dastlabki maslahat</h3>
+                        <p data-i18n="services.process.step1.desc">
+                            Mijoz ehtiyojlarini aniqlash, hamkorlik maqsadlari va imkoniyatlarini belgilash
+                        </p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 data-i18n="services.process.step2.title">Harakatlar rejasini tuzish</h3>
+                        <p data-i18n="services.process.step2.desc">
+                            Individual strategiya ishlab chiqish, optimal xizmatlar paketini tanlash
+                        </p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 data-i18n="services.process.step3.title">Tayyorgarlik va rasmiylashtirish</h3>
+                        <p data-i18n="services.process.step3.desc">
+                            Hujjatlarni yig'ish, anketalarni to'ldirish, zarur protseduralardan o'tish
+                        </p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 data-i18n="services.process.step4.title">Amalga oshirish va hamrohlik qilish</h3>
+                        <p data-i18n="services.process.step4.desc">
+                            Bizning mutaxassislarimiz nazorati ostida rejalashtirilgan qadamlarni bajarish
+                        </p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3 data-i18n="services.process.step5.title">Tugatilgandan keyingi qo'llab-quvvatlash</h3>
+                        <p data-i18n="services.process.step5.desc">
+                            Butun hamkorlik davomida yuzaga keladigan savollarda maslahat va yordam
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы клиентов -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 data-i18n="services.testimonials.title">Mijozlarimizning fikrlari</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p data-i18n="services.testimonials.testimonial1.text">
+                            "Do'stimning tavsiyasi bilan YurYor markaziga murojaat qildim va bu eng yaxshi qaror edi.
+                            Menga barcha bosqichlarda hamrohlik qilishdi: hujjatlar bilan yordam berishdi, sayohatni
+                            tashkil etishdi va hatto aeroportda kutib olishdi. Hozir Sofiyada qurilishda ishlayapman,
+                            sharoitlar a'lo, hammasi rasmiy."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="../../IMG/testimonials/migrant1.jpg" alt="" />
+                        <div class="author-info">
+                            <h4 data-i18n="services.testimonials.testimonial1.author">Ulug'bek Ahmedov</h4>
+                            <p data-i18n="services.testimonials.testimonial1.position">Quruvchi, Sofiya sh.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p data-i18n="services.testimonials.testimonial2.text">
+                            "YurYor markazi bilan bir yildan ortiq hamkorlik qilmoqdamiz. Shu vaqt ichida markaz orqali
+                            ishlab chiqarishimiz uchun 15 nafar xodimni yolladik. Barcha jarayonlar aniq tashkil
+                            etilgan, xodimlar malakali va mas'uliyatli. Ayniqsa, xodimlarni moslashtirishda yordam
+                            berganliklarini qadrlaymiz — bu ishlash davriga kirishish muddatini sezilarli darajada
+                            qisqartirdi."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="../../IMG/testimonials/employer1.jpg" alt="" />
+                        <div class="author-info">
+                            <h4 data-i18n="services.testimonials.testimonial2.author">Stefan Dimitrov</h4>
+                            <p data-i18n="services.testimonials.testimonial2.position">Ishlab chiqarish direktori,
+                                "Balkan Plastik"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p data-i18n="services.testimonials.testimonial3.text">
+                            "YurYor xodimlariga professionalligi va e'tiborli munosabati uchun minnatdorchilik
+                            bildirmoqchiman. Barcha hujjatlarni tez va muammosiz rasmiylashtirishdi, tibbiy sug'urta
+                            bilan yordam berishdi. Hozirda sohil bo'yidagi mehmonxonada ishlayapman, sharoitlar va
+                            maoshdan juda mamnunman."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="../../IMG/testimonials/migrant2.jpg" alt="" />
+                        <div class="author-info">
+                            <h4 data-i18n="services.testimonials.testimonial3.author">Dilshod Hakimov</h4>
+                            <p data-i18n="services.testimonials.testimonial3.position">Mehmonxona xodimi, Varna sh.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контактная форма -->
+    <section class="contact-section" id="contact-form">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2 data-i18n="services.contact_form.title">Boshlashga tayyormisiz?</h2>
+                    <p data-i18n="services.contact_form.desc">
+                        So'rov qoldiring va mutaxassisimiz maslahat va keyingi qadamlarni muhokama qilish uchun siz
+                        bilan bog'lanadi.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-phone-alt"></i>
+                            <h3 data-i18n="services.contact_form.methods.phone">Telefon</h3>
+                            <p><a href="tel:+998773105566">+998 77 310 55 66</a></p>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <h3 data-i18n="services.contact_form.methods.email">Email</h3>
+                            <p><a href="mailto:info@yuryor.uz">info@yuryor.uz</a></p>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-telegram"></i>
+                            <h3 data-i18n="services.contact_form.methods.telegram">Telegram</h3>
+                            <p><a href="https://t.me/yuryorbg">@yuryorbg</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="serviceForm">
+                        <div class="form-group">
+                            <label for="name" data-i18n="forms.your_name">Ismingiz</label>
+                            <input type="text" id="name" name="name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-i18n="forms.phone">Telefon raqami</label>
+                            <input type="tel" id="phone" name="phone" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="forms.email">Email</label>
+                            <input type="email" id="email" name="email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="topic" data-i18n="forms.topic">Murojaat mavzusi</label>
+                            <select id="topic" name="topic" required>
+                                <option value="" disabled selected data-i18n="forms.select_topic">Mavzuni tanlang
+                                </option>
+                                <option value="visa_issues" data-i18n="forms.visa_issues">Viza masalalari</option>
+                                <option value="employment" data-i18n="forms.employment">Ishga joylashish</option>
+                                <option value="documents" data-i18n="forms.documents">Hujjatlarni rasmiylashtirish
+                                </option>
+                                <option value="medical_insurance" data-i18n="forms.medical_insurance">Tibbiy sug'urta
+                                </option>
+                                <option value="for_employers" data-i18n="forms.for_employers">Ish beruvchilar uchun
+                                </option>
+                                <option value="other" data-i18n="forms.other">Boshqa</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="forms.message">Xabar</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="agree" name="agree" required />
+                            <label for="agree" data-i18n="forms.agreement">
+                                Men shaxsiy ma'lumotlarni qayta ishlashga roziman
+                            </label>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary" data-i18n="services.contact_form.form.submit">
+                                So'rov yuborish
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Часто задаваемые вопросы -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 data-i18n="services.faq.title">Tez-tez so'raladigan savollar</h2>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="services.faq.question1.q">Ishga joylashish jarayoni qancha vaqt oladi?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="services.faq.question1.a">
+                            Hujjatlarni rasmiylashtirish va ishga joylashishning o'rtacha muddati 4-6 oyni tashkil
+                            etadi. Bu hujjatlarni tayyorlash, viza olish, sayohatni tashkil etish va yangi joyga
+                            moslashishni o'z ichiga oladi.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="services.faq.question2.q">Xizmatlaringiz qancha turadi?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="services.faq.question2.a">
+                            Xizmatlar narxi tanlangan paket va individual ehtiyojlarga bog'liq. Biz migrantlar va ish
+                            beruvchilar uchun moslashuvchan tariflarni taklif qilamiz. Aniq narxni maslahat vaqtida
+                            menejerimiz bilan muhokama qilish mumkin.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="services.faq.question3.q">Siz ishga joylashishni kafolatlaysizmi?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="services.faq.question3.a">
+                            Biz 100% ishga joylashishni kafolatlay olmaymiz, lekin maksimal yordam ko'rsatish uchun
+                            barcha harakatlarni qilamiz. Bizning markaz tekshirilgan ish beruvchilar bilan hamkorlik
+                            qiladi va nomzodlarning professional ko'nikmalari va tajribasini hisobga olgan holda
+                            vakansiyalarni tanlaydi.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="services.faq.question4.q">Mening shaxsiy ma'lumotlarim qanday himoyalangan?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="services.faq.question4.a">
+                            Biz shaxsiy ma'lumotlarni himoya qilish qonunchiligiga qat'iy rioya qilamiz. Barcha taqdim
+                            etilgan ma'lumotlar maxfiy qayta ishlanadi, himoyalangan ma'lumotlar bazalarida saqlanadi va
+                            faqat ishga joylashish maqsadlarida ishlatiladi.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="services.faq.question5.q">Bepul maslahat olish mumkinmi?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="services.faq.question5.a">
+                            Ha, biz 15 daqiqagacha bo'lgan dastlabki bepul maslahat beramiz. Maslahat davomida
+                            mutaxassislarimiz asosiy savollaringизga javob beradilar va keyingi qadamlarni aniqlashda
+                            yordam beradilar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <!-- Основной контент футера -->
+            <div class="footer-main">
+                <!-- Логотип и описание -->
+                <div class="footer-logo">
+                    <img src="../../IMG/logo.svg" alt="YurYor Логотип">
+                    <p data-i18n="footer.support">YurYor — O'zbekistonlik mehnat migrantlarini Bolgariyada
+                        qo'llab-quvvatlash</p>
+                </div>
+
+                <!-- Меню футера с использованием flex-box -->
+                <div class="footer-menu">
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.services">Xizmatlar</h4>
+                        <ul>
+                            <li><a href="services-migrants.html" data-i18n="header.for_migrants">Migrantlar uchun</a>
+                            </li>
+                            <li><a href="services-employers.html" data-i18n="header.for_employers">Ish beruvchilar
+                                    uchun</a></li>
+                            <li><a href="services.html" data-i18n="footer.all_services">Barcha xizmatlar</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.about_center">Markaz haqida</h4>
+                        <ul>
+                            <li><a href="about.html" data-i18n="footer.about_us">Biz haqimizda</a></li>
+                            <li><a href="about.html#team-anc" data-i18n="footer.team">Jamoa</a></li>
+                            <li><a href="about.html#partners-anc" data-i18n="footer.partners">Hamkorlar</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.useful_info">Foydali ma'lumotlar</h4>
+                        <ul>
+                            <li><a href="info.html" data-i18n="footer.handbook">Qo'llanma</a></li>
+                            <li><a href="blog.html" data-i18n="footer.blog">Blog</a></li>
+                            <li><a href="info.html#faq" data-i18n="footer.faq">Savol-javob</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Контактная информация -->
+                <div class="footer-contacts">
+                    <h4 data-i18n="footer.contact_us">Biz bilan bog'laning</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+998 77 310 55 66</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@yuryor.uz</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://t.me/yuryorbg" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://wa.me/message/link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/yuryorbg" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Нижняя часть футера -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p data-i18n="footer.all_rights_reserved">© 2025 YurYor. Barcha huquqlar himoyalangan.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="/privacy-policy" data-i18n="footer.privacy_policy">Maxfiylik siyosati</a>
+                    <a href="/terms-of-service" data-i18n="footer.terms_of_use">Foydalanish shartlari</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="messenger-buttons">
+        <a href="https://t.me/yuryorbot" class="messenger-btn telegram" title="Telegram Bot"><i
+                class="fab fa-telegram"></i></a>
+        <a href="https://wa.me/998773105566" class="messenger-btn whatsapp" title="WhatsApp"><i
+                class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <!-- JavaScript файлы -->
+    <script src="../../JS/i18n.js"></script>
+    <script src="../../JS/main.js"></script>
+    <script src="../../JS/slider.js"></script>
+    <script src="../../JS/form-validation.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- 1. Kодировка и адаптивность -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- 2. Заголовок и описание -->
+    <title data-i18n="home_title">YurYor – Oʻzbekiston fuqarolariga Bolgariyada ishga joylashish bo'yicha xizmatlar</title>
+    <meta name="description" data-i18n="home_description" content="YurYor – Oʻzbekiston fuqarolariga Bolgariyada ishga joylashish, rasmiy hujjatlarni tayyorlash, viza olish, sayohat va moslashish bo'yicha kompleks xizmatlar ko'rsatuvchi markaz." />
+
+    <!-- 3. Каноникал и мультиязычность -->
+    <link rel="canonical" href="https://yuryoq.uz/HTML/UZ/index.html" />
+    <link rel="alternate" href="https://yuryoq.uz/HTML/UZ/index.html" hreflang="uz" />
+    <link rel="alternate" href="https://yuryoq.uz/HTML/RU/index.html" hreflang="ru" />
+    <link rel="alternate" href="https://yuryoq.uz/HTML/BG/index.html" hreflang="bg" />
+
+    <!-- 4. Индексация -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- 5. Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="YurYor – Oʻzbekiston fuqarolariga Bolgariyada ishga joylashish bo'yicha xizmatlar" />
+    <meta property="og:description" content="YurYor – Oʻzbekiston fuqarolariga Bolgariyada ishga joylashish bo'yicha kompleks xizmatlar ko'rsatuvchi markaz." />
+    <meta property="og:url" content="https://yuryoq.uz/HTML/UZ/index.html" />
+    <meta property="og:image" content="https://yuryoq.uz/img/home-hero.jpg" />
+    <meta property="og:site_name" content="YurYor" />
+
+    <!-- 6. CSS -->
+    <link rel="stylesheet" href="../../CSS/style.css">
+    <link rel="stylesheet" href="../../CSS/responsive.css">
+    <link rel="stylesheet" href="../../CSS/home.css">
+
+    <!-- 7. Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="YurYor – Oʻzbekiston fuqarolariga Bolgariyada ishga joylashish bo'yicha xizmatlar" />
+    <meta name="twitter:description" content="YurYor – Oʻzbekiston fuqarolariga Bolgariyada ishga joylashish bo'yicha kompleks xizmatlar ko'rsatuvchi markaz." />
+    <meta name="twitter:image" content="https://yuryoq.uz/img/home-hero.jpg" />
+    
+    <!-- 8. Структурированные данные JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "YurYor",
+      "url": "https://yuryoq.uz/",
+      "logo": "https://yuryoq.uz/img/logo.svg",
+      "description": "Oʻzbekiston fuqarolariga Bolgariyada ishga joylashish bo'yicha kompleks xizmatlar",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Uzbekistan"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+998712345678",
+        "contactType": "customer service",
+        "availableLanguage": ["Uzbek", "Russian", "Bulgarian"]
+      },
+      "sameAs": [
+        "https://facebook.com/yuryoruz",
+        "https://instagram.com/yuryoruz",
+        "https://t.me/yuryoruz"
+      ]
+    }
+    </script>
+    <!-- Иконки Font Awesome для социальных сетей и мессенджеров -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="../../IMG/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../../IMG/logo.svg" alt="YurYor - Поддержка трудовых мигрантов из Узбекистана">
+                    </a>
+                </div>
+
+                <div class="lang-switcher">
+                    <button data-lang="RU">РУ</button>
+                    <button class="active" data-lang="UZ">UZ</button>
+                    <button data-lang="BG">BG</button>
+                </div>
+
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="about.html" data-i18n="header.about">Markaz haqida</a></li>
+                        <li class="dropdown">
+                            <a href="services.html" data-i18n="header.services">Xizmatlar</a>
+                            <div class="dropdown-content">
+                                <a href="services-migrants.html" data-i18n="header.for_migrants">Migrantlar uchun</a>
+                                <a href="services-employers.html" data-i18n="header.for_employers">Ish beruvchilar
+                                    uchun</a>
+                            </div>
+                        </li>
+                        <li><a href="info.html" data-i18n="header.useful_info">Foydali ma'lumotlar</a></li>
+                        <li><a href="blog.html" data-i18n="header.blog">Blog</a></li>
+                        <li><a href="contacts.html" data-i18n="header.contacts">Kontaktlar</a></li>
+                    </ul>
+                </nav>
+
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-i18n="index.hero.title">YurYor — ishonchli qo'llab-quvvatlash</h1>
+                <p class="hero-subtitle" data-i18n="index.hero.subtitle">Sizga xotirjam ishlash va ishonchli yashash
+                    imkonini beramiz</p>
+                <div class="hero-buttons">
+                    <a href="services-migrants.html" class="btn btn-primary" data-i18n="index.hero.migrant_button">Men
+                        migrantman – yordam kerak</a>
+                    <a href="services-employers.html" class="btn btn-secondary"
+                        data-i18n="index.hero.employer_button">Men ish beruvchiman – vakansiya joylashtirish</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-brief">
+        <div class="container">
+            <h2 data-i18n="index.about_brief.title">YurYor qo'llab-quvvatlash markazi haqida</h2>
+            <p class="section-intro" data-i18n="index.about_brief.intro">«YurYor» (o'zbek tilidan tarjimasi —
+                «Vatandoshlarni qo'llab-quvvatlash») — bu Bolgariyada ishlayotgan yoki ishga joylashishni rejalashtirgan
+                O'zbekiston fuqarolariga har tomonlama yordam ko'rsatish uchun tashkil etilgan zamonaviy
+                axborot-maslahat markazi.</p>
+
+            <div class="stats-row">
+                <div class="stat-card">
+                    <div class="stat-number" data-i18n="index.about_brief.stats.clients_count">3000+</div>
+                    <div class="stat-description" data-i18n="index.about_brief.stats.clients_desc">Allaqachon bizning
+                        yordamimizni olishgan</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-i18n="index.about_brief.stats.offices_count">2</div>
+                    <div class="stat-description" data-i18n="index.about_brief.stats.offices_desc">Toshkent va
+                        Bolgariyada</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-i18n="index.about_brief.stats.support_count">24/7</div>
+                    <div class="stat-description" data-i18n="index.about_brief.stats.support_desc">Ishga joylashishning
+                        barcha bosqichlarida</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-i18n="index.about_brief.stats.employment_count">1500+</div>
+                    <div class="stat-description" data-i18n="index.about_brief.stats.employment_desc">Muvaffaqiyatli
+                        ishga joylashishlar</div>
+                </div>
+            </div>
+
+            <div class="about-action">
+                <a href="about.html" class="btn btn-outline" data-i18n="index.about_brief.learn_more">Biz haqimizda
+                    ko'proq bilish</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-overview">
+        <div class="container">
+            <h2 data-i18n="index.services_overview.title">Biz qanday yordam beramiz</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="../../IMG/icons/document.svg" alt="Документы">
+                    </div>
+                    <h3 data-i18n="index.services_overview.document_service">Hujjatlarni rasmiylashtirish</h3>
+                    <p data-i18n="index.services_overview.document_desc">Viza, yashash uchun ruxsatnoma va ishga
+                        joylashish uchun barcha hujjatlar to'g'ri rasmiylashtirishga yordam beramiz</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="../../IMG/icons/insurance.svg" alt="Страховка">
+                    </div>
+                    <h3 data-i18n="index.services_overview.insurance_service">Tibbiy sug'urta</h3>
+                    <p data-i18n="index.services_overview.insurance_desc">Viza uchun va Bolgariyada ishlash paytida
+                        sug'urta polislarini rasmiylashtiramiz</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="../../IMG/icons/support.svg" alt="Консультации">
+                    </div>
+                    <h3 data-i18n="index.services_overview.support_service">Maslahat va qo'llab-quvvatlash</h3>
+                    <p data-i18n="index.services_overview.support_desc">Barcha bosqichlarda huquqiy, til va maishiy
+                        yordam ko'rsatamiz</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="../../IMG/icons/travel.svg" alt="Поездка">
+                    </div>
+                    <h3 data-i18n="index.services_overview.travel_service">Sayohatni tashkil etish</h3>
+                    <p data-i18n="index.services_overview.travel_desc">Chipta bron qilish va ish joyiga transport
+                        xizmatlarini tashkil etishda yordam beramiz</p>
+                </div>
+            </div>
+
+            <div class="services-action">
+                <a href="services.html" class="btn btn-primary" data-i18n="index.services_overview.all_services">Barcha
+                    xizmatlar</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 data-i18n="index.testimonials.title">Mijozlarimizning izohlari</h2>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p data-i18n="index.testimonials.testimonial1.text">"YurYor yordamida barcha hujjatlarni tez
+                            rasmiylashtirib, Bolgariyada yaxshi ish topdim. Markaz xodimlari menga barcha bosqichlarda
+                            hamrohlik qildilar va yangi joyga moslashishda yordam berdilar. Professionallik uchun
+                            rahmat!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="../../IMG/testimonials/person1.jpg" alt="Фото клиента">
+                        <div class="author-info">
+                            <h4 data-i18n="index.testimonials.testimonial1.author">Alisher Karimov</h4>
+                            <p data-i18n="index.testimonials.testimonial1.position">Varna shahrida ishlaydi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p data-i18n="index.testimonials.testimonial2.text">"Bolgariyada hujjatlar bilan muammo yuzaga
+                            kelganda markazga murojaat qildim. YurYor xodimlari vaziyatni tez hal qilishda yordam
+                            berdilar va barcha savollar bo'yicha maslahat berdilar. Endi barcha tanishlarimga tavsiya
+                            qilaman!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="../../IMG/testimonials/person2.jpg" alt="Фото клиента">
+                        <div class="author-info">
+                            <h4 data-i18n="index.testimonials.testimonial2.author">Lola Tashmatova</h4>
+                            <p data-i18n="index.testimonials.testimonial2.position">Sofiya shahrida ishlaydi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p data-i18n="index.testimonials.testimonial3.text">"Bolgar kompaniyasining vakili sifatida men
+                            YurYor bilan hamkorlikdan juda mamnunman. Ular bizga O'zbekistondan malakali xodimlarni
+                            topishda yordam berishdi va ishga qabul qilish jarayonida to'liq huquqiy yordam
+                            ko'rsatishdi. Ikkinchi yildir ishlaymiz!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="../../IMG/testimonials/person3.jpg" alt="Фото клиента">
+                        <div class="author-info">
+                            <h4 data-i18n="index.testimonials.testimonial3.author">Ivan Petrov</h4>
+                            <p data-i18n="index.testimonials.testimonial3.position">HR-menejer, "BolgarStroy"
+                                kompaniyasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-preview">
+        <div class="container">
+            <h2 data-i18n="index.blog_preview.title">Blogimizdan foydali maqolalar</h2>
+
+            <div class="blog-cards">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="../../IMG/blog/post1.jpg" alt="Изображение статьи">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date" data-i18n="index.blog_preview.post1.date">15 aprel 2025</div>
+                        <h3><a href="blog-post.html" data-i18n="index.blog_preview.post1.title">Bolgariyaga
+                                muvaffaqiyatli moslashish uchun 10 ta maslahat: vatandoshlar tajribasi</a></h3>
+                        <p data-i18n="index.blog_preview.post1.desc">Allaqachon moslashish yo'lini bosib o'tgan va
+                            Bolgariyada muvaffaqiyatli ishlaydigan insonlarning amaliy tavsiyalari.</p>
+                        <a href="blog-post.html" class="read-more"
+                            data-i18n="index.blog_preview.post1.read_more">Davomini o'qish</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="../../IMG/blog/post2.jpg" alt="Изображение статьи">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date" data-i18n="index.blog_preview.post2.date">10 aprel 2025</div>
+                        <h3><a href="blog-post.html" data-i18n="index.blog_preview.post2.title">Bolgariyada ishlash
+                                uchun tibbiy sug'urtani qanday to'g'ri rasmiylashtirish kerak</a></h3>
+                        <p data-i18n="index.blog_preview.post2.desc">Barcha talablarga javob beradigan sug'urta polisini
+                            tanlash bo'yicha batafsil qo'llanma.</p>
+                        <a href="blog-post.html" class="read-more"
+                            data-i18n="index.blog_preview.post2.read_more">Davomini o'qish</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="../../IMG/blog/post3.jpg" alt="Изображение статьи">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date" data-i18n="index.blog_preview.post3.date">5 aprel 2025</div>
+                        <h3><a href="blog-post.html" data-i18n="index.blog_preview.post3.title">Bolgariyaning viza
+                                siyosatidagi o'zgarishlar: 2025 yilda nimalarga e'tibor berish kerak</a></h3>
+                        <p data-i18n="index.blog_preview.post3.desc">D turdagi viza va ishlash uchun ruxsatnoma
+                            olishning yangi qoidalari haqida dolzarb ma'lumot.</p>
+                        <a href="blog-post.html" class="read-more"
+                            data-i18n="index.blog_preview.post3.read_more">Davomini o'qish</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-action">
+                <a href="blog.html" class="btn btn-outline" data-i18n="index.blog_preview.go_to_blog">Blogga o'tish</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-i18n="index.consultation.title">Maslahat kerakmi?</h2>
+                <p data-i18n="index.consultation.desc">Hoziroq so'rov qoldiring va mutaxassisimiz siz bilan yaqin vaqt
+                    ichida bog'lanadi</p>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required
+                                data-i18n-placeholder="index.consultation.name">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Ваш телефон" required
+                                data-i18n-placeholder="index.consultation.phone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Ваш email" required
+                            data-i18n-placeholder="index.consultation.email">
+                    </div>
+                    <div class="form-group">
+                        <select id="requestType" name="requestType" required
+                            data-i18n-placeholder="index.consultation.request_type">
+                            <option value="" disabled selected data-i18n="index.consultation.request_type">Murojaat
+                                maqsadi</option>
+                            <option value="migration" data-i18n="index.consultation.option1">Viza olish va Bolgariyada
+                                ishlash</option>
+                            <option value="employer" data-i18n="index.consultation.option2">O'zbekistondan xodimlar
+                                yollash</option>
+                            <option value="consultation" data-i18n="index.consultation.option3">Umumiy maslahat</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="agreement" name="agreement" required>
+                            <label for="agreement" data-i18n="index.consultation.agreement">Men shaxsiy ma'lumotlarni
+                                qayta ishlashga roziman</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-i18n="index.consultation.submit">So'rov
+                        yuborish</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <!-- Основной контент футера -->
+            <div class="footer-main">
+                <!-- Логотип и описание -->
+                <div class="footer-logo">
+                    <img src="../../IMG/logo.svg" alt="YurYor Логотип">
+                    <p data-i18n="footer.support">YurYor — O'zbekistonlik mehnat migrantlarini Bolgariyada
+                        qo'llab-quvvatlash</p>
+                </div>
+
+                <!-- Меню футера с использованием flex-box -->
+                <div class="footer-menu">
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.services">Xizmatlar</h4>
+                        <ul>
+                            <li><a href="services-migrants.html" data-i18n="header.for_migrants">Migrantlar uchun</a>
+                            </li>
+                            <li><a href="services-employers.html" data-i18n="header.for_employers">Ish beruvchilar
+                                    uchun</a></li>
+                            <li><a href="services.html" data-i18n="footer.all_services">Barcha xizmatlar</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.about_center">Markaz haqida</h4>
+                        <ul>
+                            <li><a href="about.html" data-i18n="footer.about_us">Biz haqimizda</a></li>
+                            <li><a href="about.html#team-anc" data-i18n="footer.team">Jamoa</a></li>
+                            <li><a href="about.html#partners-anc" data-i18n="footer.partners">Hamkorlar</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.useful_info">Foydali ma'lumotlar</h4>
+                        <ul>
+                            <li><a href="info.html" data-i18n="footer.handbook">Qo'llanma</a></li>
+                            <li><a href="blog.html" data-i18n="footer.blog">Blog</a></li>
+                            <li><a href="info.html#faq" data-i18n="footer.faq">Savol-javob</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Контактная информация -->
+                <div class="footer-contacts">
+                    <h4 data-i18n="footer.contact_us">Biz bilan bog'laning</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+998 77 310 55 66</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@yuryor.uz</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://t.me/yuryorbg" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://wa.me/message/link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/yuryorbg" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Нижняя часть футера -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p data-i18n="footer.all_rights_reserved">© 2025 YurYor. Barcha huquqlar himoyalangan.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="/privacy-policy" data-i18n="footer.privacy_policy">Maxfiylik siyosati</a>
+                    <a href="/terms-of-service" data-i18n="footer.terms_of_use">Foydalanish shartlari</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="messenger-buttons">
+        <a href="https://t.me/yuryorbot" class="messenger-btn telegram" title="Telegram Bot"><i
+                class="fab fa-telegram"></i></a>
+        <a href="https://wa.me/998773105566" class="messenger-btn whatsapp" title="WhatsApp"><i
+                class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <!-- JavaScript файлы -->
+    <script src="../../JS/i18n.js"></script>
+    <script src="../../JS/main.js"></script>
+    <script src="../../JS/slider.js"></script>
+    <script src="../../JS/form-validation.js"></script>
+</body>
+
+</html>

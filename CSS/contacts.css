@@ -1,0 +1,314 @@
+/* Основная информация о контактах */
+.contacts-info {
+    padding: 60px 0;
+}
+
+.contacts-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.contacts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.contact-card {
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    transition: transform var(--transition-speed);
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-icon {
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin: 0 auto 20px;
+}
+
+.contact-card h3 {
+    margin-bottom: 15px;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+.contact-details a {
+    color: var(--primary-color);
+    transition: color var(--transition-speed);
+}
+
+.contact-details a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.contact-note {
+    font-size: 0.875rem;
+    color: var(--text-light);
+    margin-top: 10px;
+}
+
+/* Карта и офисы */
+.offices-section {
+    padding: 60px 0;
+    background-color: var(--bg-light);
+}
+
+.offices-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.office-card {
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.office-info {
+    padding: 30px;
+}
+
+.office-info h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.office-info address {
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+.office-info address p {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.office-info address i {
+    color: var(--primary-color);
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.office-actions {
+    margin-top: 20px;
+}
+
+.office-map {
+    height: 100%;
+}
+
+.office-map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+/* Форма обратной связи */
+.contact-form-section {
+    padding: 60px 0;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow);
+    padding: 40px;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-header h2 {
+    margin-bottom: 10px;
+}
+
+.contact-form .form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.contact-form .required {
+    color: #e74c3c;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(0, 87, 184, 0.2);
+}
+
+.contact-form .checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contact-form .checkbox-group input {
+    width: auto;
+    margin-top: 4px;
+}
+
+.contact-form button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+.page-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 50px 0;
+}
+
+.page-header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.page-header h1 {
+    margin-bottom: 15px;
+}
+
+.breadcrumbs {
+    font-size: 0.9rem;
+}
+
+.breadcrumbs a {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+}
+
+.breadcrumbs span {
+    color: white;
+}
+
+.services-categories .categories-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+/* FAQ секция */
+.faq-section {
+    padding: 60px 0;
+    background-color: var(--bg-light);
+}
+
+.faq-accordion {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    margin-bottom: 15px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+.faq-question {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq-question h3 {
+    margin: 0;
+    flex-grow: 1;
+    font-size: 1.1rem;
+}
+
+.toggle-icon {
+    font-size: 1.2rem;
+    color: var(--text-medium);
+    transition: transform var(--transition-speed);
+}
+
+.faq-item.active .toggle-icon {
+    transform: rotate(180deg);
+}
+
+.faq-answer {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-item.active .faq-answer {
+    padding: 0 20px 20px;
+    max-height: 1000px;
+}
+
+.faq-answer p {
+    margin-bottom: 15px;
+}
+
+.faq-answer ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.faq-answer li {
+    margin-bottom: 8px;
+}

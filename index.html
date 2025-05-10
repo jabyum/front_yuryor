@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    (function() {
+      let savedLang = localStorage.getItem('selectedLanguage');
+      let browserLang = navigator.language.split('-')[0];
+      let supportedLangs = ['RU', 'UZ', 'BG'];
+      let redirectLang = savedLang || 
+                        (supportedLangs.includes(browserLang) ? browserLang : 'UZ');
+      let basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+      if (basePath === '/') basePath = '';
+      window.location.href = basePath + 'HTML/' + redirectLang + '/';
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to the appropriate language version...</p>
+</body>
+</html>

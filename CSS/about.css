@@ -1,0 +1,390 @@
+.about-center {
+    padding: 60px 0;
+}
+
+.center-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.center-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow);
+}
+
+.center-description h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.directions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.direction-item {
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: transform var(--transition-speed);
+}
+
+.direction-item:hover {
+    transform: translateY(-5px);
+}
+
+.direction-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.direction-item h4 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.directions-note {
+    text-align: center;
+    font-style: italic;
+    color: var(--text-medium);
+    margin-top: 30px;
+}
+
+/* Секция Миссии */
+.mission-section {
+    padding: 70px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.mission-content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.mission-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.mission-text h2 {
+    text-align: left;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.mission-text h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+.mission-text p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.mission-image-container {
+    flex: 1;
+    position: relative;
+    height: 450px;
+}
+
+.mission-bg {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 87, 184, 0.1);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.mission-image {
+    position: relative;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+}
+
+.mission-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mission-values {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.value-item {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.value-item:hover {
+    transform: translateY(-5px);
+}
+
+.value-item h4 {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.value-item p {
+    margin: 0;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.value-icon {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: var(--primary-color);
+    opacity: 0.8;
+}
+
+
+/* Секция команды */
+.team-section {
+    padding: 60px 0;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.team-member {
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: transform var(--transition-speed);
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+.member-photo img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.member-info {
+    padding: 20px;
+}
+
+.member-info h3 {
+    margin-bottom: 5px;
+}
+
+.member-position {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.member-bio {
+    color: var(--text-medium);
+    margin: 0;
+}
+
+/* Секция географии */
+.geography-section {
+    background-color: var(--bg-light);
+    padding: 60px 0;
+}
+
+.map-container {
+    margin-bottom: 40px;
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+.offices-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.office {
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    gap: 20px;
+}
+
+.office-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.office-details h3 {
+    margin-bottom: 15px;
+}
+
+.office-details p {
+    margin-bottom: 10px;
+    color: var(--text-medium);
+}
+
+.office-details p:last-child {
+    margin-bottom: 0;
+}
+
+/* Секция партнеров */
+.partners-section {
+    padding: 60px 0;
+}
+
+.partners-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.partner-logo {
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    transition: transform var(--transition-speed);
+}
+
+.partner-logo:hover {
+    transform: scale(1.05);
+}
+
+.partner-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.certificates {
+    margin-top: 50px;
+}
+
+.certificates h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Два сертификата в ряд */
+    gap: 30px;
+}
+
+.certificate {
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    transition: transform var(--transition-speed);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate:hover {
+    transform: translateY(-5px);
+}
+
+.certificate-preview {
+    height: 200px;
+    overflow: hidden;
+}
+
+.certificate-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.certificate-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.certificate-info h4 {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.certificate-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.certificate-actions .btn {
+    min-width: 150px;
+}

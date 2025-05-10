@@ -1,0 +1,700 @@
+/* Вступительная информация */
+.services-intro {
+    padding: 60px 0;
+}
+
+.intro-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.intro-text h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.intro-image img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow);
+}
+
+/* Аккордеон услуг */
+.services-accordion {
+    padding: 60px 0;
+    background-color: var(--bg-light);
+}
+
+.accordion {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    margin-bottom: 20px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+.accordion-header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.header-icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.accordion-header h3 {
+    margin: 0;
+    flex-grow: 1;
+    transition: color var(--transition-speed);
+}
+
+.toggle-icon {
+    font-size: 1.2rem;
+    color: var(--text-medium);
+    transition: transform var(--transition-speed);
+}
+
+.accordion-header:hover h3 {
+    color: var(--primary-color);
+}
+
+.accordion-item.active .toggle-icon {
+    transform: rotate(180deg);
+}
+
+.accordion-body {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+.accordion-item.active .accordion-body {
+    padding: 0 20px 30px;
+    max-height: 2000px;
+    /* Достаточно большое значение для любого контента */
+}
+
+.service-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+}
+
+.service-list {
+    list-style: none;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.service-list li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.service-list li:last-child {
+    border-bottom: none;
+}
+
+.service-title {
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.service-description {
+    color: var(--text-medium);
+}
+
+.service-benefits,
+.service-steps {
+    margin-bottom: 30px;
+}
+
+.service-benefits h4,
+.service-steps h4,
+.service-table h4 {
+    margin-bottom: 15px;
+    color: var(--text-dark);
+}
+
+.service-benefits ul,
+.service-steps ol {
+    margin-left: 20px;
+    color: var(--text-medium);
+}
+
+.service-benefits li,
+.service-steps li {
+    margin-bottom: 10px;
+}
+
+.service-table {
+    margin-bottom: 30px;
+    overflow-x: auto;
+}
+
+.service-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.service-table th,
+.service-table td {
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+
+.service-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.service-table td:first-child {
+    text-align: left;
+    font-weight: 500;
+}
+
+.service-table .fa-check {
+    color: var(--secondary-color);
+}
+
+.service-table .fa-times {
+    color: var(--text-light);
+}
+
+.service-cta {
+    margin-top: 20px;
+}
+
+.service-image img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow);
+}
+
+/* Преимущества работы с нами */
+.benefits-section {
+    padding: 60px 0;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.benefit-card {
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    transition: transform var(--transition-speed);
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-icon {
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin: 0 auto 20px;
+}
+
+.benefit-card h3 {
+    margin-bottom: 15px;
+}
+
+.benefit-card p {
+    color: var(--text-medium);
+    margin-bottom: 0;
+}
+
+/* Процесс работы - Этапы */
+.process-section {
+    padding: 60px 0;
+    background-color: var(--bg-light);
+}
+
+.process-steps {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Линия процесса */
+.process-steps::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 24px;
+    width: 2px;
+    background-color: var(--primary-color);
+}
+
+.process-step {
+    display: flex;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.process-step:last-child {
+    margin-bottom: 0;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-right: 30px;
+    z-index: 1;
+    flex-shrink: 0;
+}
+
+.step-content {
+    padding-top: 5px;
+}
+
+.step-content h3 {
+    margin-bottom: 10px;
+}
+
+.step-content p {
+    color: var(--text-medium);
+    margin-bottom: 0;
+}
+
+/* Контактная форма */
+.contact-section {
+    padding: 60px 0;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-info {
+    padding: 40px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.contact-info h2 {
+    color: white;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.contact-methods {
+    margin-top: 40px;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.contact-method i {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    color: white;
+}
+
+.contact-method h3 {
+    display: inline-block;
+    margin: 0;
+    margin-right: 8px;
+    font-size: 1.1rem;
+    color: white;
+    vertical-align: middle;
+}
+
+.contact-method p {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.contact-method a {
+    color: rgba(255, 255, 255, 0.9);
+    transition: color var(--transition-speed);
+    text-decoration: none;
+}
+
+.contact-method a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.contact-form-container {
+    padding: 40px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.contact-form .required {
+    color: #e74c3c;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    font-size: 1rem;
+    color: var(--text-dark);
+}
+
+.contact-form select {
+    background-color: #fff;
+    color: var(--text-dark);
+    border: 1px solid var(--border-color);
+}
+
+.contact-form select option {
+    background-color: #fff;
+    color: var(--text-dark);
+}
+
+.contact-form select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.contact-form select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,…");
+    /* тут иконка стрелки */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+    /* место под стрелку */
+}
+
+.contact-form input[type="checkbox"],
+.contact-form input[type="radio"] {
+    width: auto;
+    /* чтобы flex-контейнер не растягивал его */
+    flex: 0 0 auto;
+    margin: 0;
+}
+
+.contact-form .form-group.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.contact-form .form-group.checkbox label {
+    display: inline-block;
+    margin-left: 6px;
+    line-height: 1.2;
+}
+
+
+/* FAQ секция */
+.faq-section {
+    padding: 60px 0;
+    background-color: var(--bg-light);
+}
+
+.faq-accordion {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.faq-item {
+    background-color: white;
+    border-radius: var(--border-radius-md);
+    margin-bottom: 15px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+.faq-question {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq-question h3 {
+    margin: 0;
+    flex-grow: 1;
+    font-size: 1.1rem;
+    transition: color var(--transition-speed);
+}
+
+.faq-question:hover h3 {
+    color: var(--primary-color);
+}
+
+.faq-answer {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-item.active .faq-answer {
+    padding: 0 20px 20px;
+    max-height: 1000px;
+}
+
+.faq-item.active .toggle-icon {
+    transform: rotate(180deg);
+}
+
+.faq-answer p {
+    margin-bottom: 15px;
+}
+
+.faq-answer ul,
+.faq-answer ol {
+    margin-bottom: 15px;
+    color: var(--text-medium);
+    padding-left: 20px;
+}
+
+.faq-answer li {
+    margin-bottom: 8px;
+}
+
+.faq-more {
+    text-align: center;
+}
+
+/* Категории услуг */
+.services-categories {
+    padding: 60px 0;
+}
+
+.services-categories .categories-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.category-card {
+    display: flex;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.category-card .category-content {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.category-card .category-image {
+    flex: 1;
+}
+
+.category-card .category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category-services {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.category-services li {
+    margin-bottom: 10px;
+}
+
+.category-services li i {
+    color: var(--accent-color);
+    margin-right: 10px;
+}
+
+.page-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 50px 0;
+}
+
+.page-header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.page-header h1 {
+    margin-bottom: 15px;
+}
+
+.breadcrumbs {
+    font-size: 0.9rem;
+}
+
+.breadcrumbs a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.breadcrumbs span {
+    color: white;
+}
+
+/* JavaScript для аккордеона */
+.js-accordion-init .accordion-body {
+    display: none;
+}
+
+.js-accordion-init .accordion-item.active .accordion-body {
+    display: block;
+}
+
+/* Стили для формы вакансий */
+.vacancy-form-section {
+    padding: 60px 0;
+    background-color: var(--bg-light);
+}
+
+.vacancy-form {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow);
+}
+
+.vacancy-form .form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.vacancy-form .form-group {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.vacancy-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.vacancy-form label a {
+    color: var(--primary-color);
+}
+
+.vacancy-form .required {
+    color: #e74c3c;
+}
+
+.vacancy-form input,
+.vacancy-form select,
+.vacancy-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    font-size: 1rem;
+    color: var(--text-dark);
+}
+
+.vacancy-form .checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.vacancy-form .checkbox input {
+    width: auto;
+    margin-top: 4px;
+}
+
+.vacancy-form .form-actions {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.file-upload input {
+    border: 1px dashed var(--border-color);
+    padding: 20px;
+    background-color: var(--bg-light);
+}

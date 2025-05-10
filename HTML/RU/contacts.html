@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- 1. Kодировка и адаптивность -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- 2. Заголовок и описание -->
+    <title data-i18n="contacts_title">YurYor – Свяжитесь с нами | Консультация по работе в Болгарии</title>
+    <meta name="description" data-i18n="contacts_description"
+        content="Контактная информация YurYor. Свяжитесь с нами для консультации по работе в Болгарии, оформлению официальных документов, получению визы и другим услугам." />
+
+    <!-- 3. Каноникал и мультиязычность -->
+    <link rel="canonical" href="https://yuryoq.uz/HTML/RU/contacts.html" />
+    <link rel="alternate" href="https://yuryoq.uz/HTML/UZ/contacts.html" hreflang="uz" />
+    <link rel="alternate" href="https://yuryoq.uz/HTML/RU/contacts.html" hreflang="ru" />
+    <link rel="alternate" href="https://yuryoq.uz/HTML/BG/contacts.html" hreflang="bg" />
+
+    <!-- 4. Индексация -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- 5. Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="YurYor – Свяжитесь с нами | Консультация по работе в Болгарии" />
+    <meta property="og:description"
+        content="Контактная информация YurYor. Свяжитесь с нами для консультации по работе в Болгарии и оформлению документов." />
+    <meta property="og:url" content="https://yuryoq.uz/HTML/RU/contacts.html" />
+    <meta property="og:image" content="https://yuryoq.uz/img/contact-cover.jpg" />
+    <meta property="og:site_name" content="YurYor" />
+
+    <!-- 6. CSS -->
+    <link rel="stylesheet" href="../../CSS/style.css">
+    <link rel="stylesheet" href="../../CSS/responsive.css">
+    <link rel="stylesheet" href="../../CSS/contacts.css">
+
+    <!-- 7. Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="YurYor – Свяжитесь с нами | Консультация по работе в Болгарии" />
+    <meta name="twitter:description"
+        content="Контактная информация YurYor. Свяжитесь с нами для консультации по работе в Болгарии и оформлению документов." />
+    <meta name="twitter:image" content="https://yuryoq.uz/img/contact-cover.jpg" />
+
+    <!-- 8. Структурированные данные JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "YurYor",
+      "url": "https://yuryoq.uz/",
+      "logo": "https://yuryoq.uz/img/logo.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+998712345678",
+        "contactType": "customer service",
+        "areaServed": ["UZ", "BG", "RU"],
+        "availableLanguage": ["Uzbek", "Russian", "Bulgarian"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sample Street 123",
+        "addressLocality": "Ташкент",
+        "addressCountry": "Узбекистан"
+      },
+      "sameAs": [
+        "https://facebook.com/yuryoruz",
+        "https://instagram.com/yuryoruz",
+        "https://t.me/yuryoruz"
+      ]
+    }
+    </script>
+    <!-- Иконки Font Awesome для социальных сетей и мессенджеров -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="../../IMG/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Шапка сайта -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../../IMG/logo.svg" alt="YurYor - Поддержка трудовых мигрантов из Узбекистана">
+                    </a>
+                </div>
+
+                <div class="lang-switcher">
+                    <button class="active" data-lang="ru">РУ</button>
+                    <button data-lang="uz">UZ</button>
+                    <button data-lang="bg">BG</button>
+                </div>
+
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="about.html" data-i18n="header.about">Markaz haqida</a></li>
+                        <li class="dropdown">
+                            <a href="services.html" data-i18n="header.services">Xizmatlar</a>
+                            <div class="dropdown-content">
+                                <a href="services-migrants.html" data-i18n="header.for_migrants">Migrantlar uchun</a>
+                                <a href="services-employers.html" data-i18n="header.for_employers">Ish beruvchilar
+                                    uchun</a>
+                            </div>
+                        </li>
+                        <li><a href="info.html" data-i18n="header.useful_info">Foydali ma'lumotlar</a></li>
+                        <li><a href="blog.html" data-i18n="header.blog">Blog</a></li>
+                        <li><a href="contacts.html" data-i18n="header.contacts">Kontaktlar</a></li>
+                    </ul>
+                </nav>
+
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 data-i18n="contacts.title">Kontaktlar</h1>
+            <div class="breadcrumbs">
+                <a href="index.html" data-i18n="header.home">Bosh sahifa</a> /
+                <span data-i18n="contacts.title">Kontaktlar</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts-info">
+        <div class="container">
+            <div class="contacts-intro">
+                <h2 data-i18n="contacts.intro.title">Biz bilan bog'laning</h2>
+                <p data-i18n="contacts.intro.desc">YurYor markazi sizga Bolgariyada ishga joylashish masalalarida yordam
+                    berishga doimo tayyor. Qulay aloqa usulini tanlang yoki Toshkent yoki Bolgariyadagi ofisimizga
+                    tashrif buyuring.</p>
+            </div>
+
+            <div class="contacts-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3 data-i18n="contacts.contact_cards.phones.title">Telefonlar</h3>
+                    <div class="contact-details">
+                        <p><strong data-i18n="contacts.contact_cards.phones.uzbekistan">O'zbekiston:</strong> <a
+                                href="tel:+998773105566">+998 77 310 55 66</a></p>
+                        <p><strong data-i18n="contacts.contact_cards.phones.bulgaria">Bolgariya:</strong> <a
+                                href="tel:+35987654321">+359 ХХХХХХХ</a></p>
+                        <p class="contact-note" data-i18n="contacts.contact_cards.phones.hours">Ish vaqti: Dush-Jum,
+                            9:00-18:00</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 data-i18n="contacts.contact_cards.email.title">Email</h3>
+                    <div class="contact-details">
+                        <p><strong data-i18n="contacts.contact_cards.email.general">Umumiy savollar:</strong> <a
+                                href="mailto:info@yuryor.uz">info@yuryor.uz</a></p>
+                        <p><strong data-i18n="contacts.contact_cards.email.migrants">Migrantlar uchun:</strong> <a
+                                href="mailto:migrants@yuryor.uz">migrants@yuryor.uz</a></p>
+                        <p><strong data-i18n="contacts.contact_cards.email.employers">Ish beruvchilar uchun:</strong> <a
+                                href="mailto:employers@yuryor.uz">employers@yuryor.uz</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 data-i18n="contacts.contact_cards.messengers.title">Messenjerlar</h3>
+                    <div class="contact-details">
+                        <p><strong data-i18n="contacts.contact_cards.messengers.telegram">Telegram:</strong> <a
+                                href="https://t.me/yuryorbg">@yuryorbg</a></p>
+                        <p><strong data-i18n="contacts.contact_cards.messengers.whatsapp">WhatsApp:</strong> <a
+                                href="https://wa.me/998773105566">+998 77 310 55 66</a></p>
+                        <p><strong data-i18n="contacts.contact_cards.messengers.facebook">Facebook:</strong> <a
+                                href="https://facebook.com/yuryorbg">@yuryorbg</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 data-i18n="contacts.contact_cards.chatbots.title">Chat-botlar</h3>
+                    <div class="contact-details">
+                        <p><strong data-i18n="contacts.contact_cards.chatbots.telegram_bot">Telegram bot:</strong> <a
+                                href="https://t.me/yuryorbot">@yuryorbot</a></p>
+                        <p><strong data-i18n="contacts.contact_cards.chatbots.whatsapp_bot">WhatsApp bot:</strong> <a
+                                href="https://wa.me/998773105566">+998 77 310 55 66</a></p>
+                        <p class="contact-note" data-i18n="contacts.contact_cards.chatbots.note">Botlar tez-tez
+                            beriladigan savollarga 24/7 rejimida javob beradi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offices-section">
+        <div class="container">
+            <h2 data-i18n="contacts.offices.title">Bizning ofislarimiz</h2>
+
+            <div class="offices-grid">
+                <div class="office-card tashkent">
+                    <div class="office-info">
+                        <h3 data-i18n="contacts.offices.tashkent.title">Toshkentdagi ofis</h3>
+                        <address>
+                            <p><i class="fas fa-map-marker-alt"></i> <span
+                                    data-i18n="contacts.offices.tashkent.address">Manzil</span>: [Адрес офиса в
+                                Ташкенте]</p>
+                            <p><i class="fas fa-phone-alt"></i> <span
+                                    data-i18n="contacts.offices.tashkent.phone">Telefon</span>: <a
+                                    href="tel:+998773105566">+998 77 310 55 66</a></p>
+                            <p><i class="far fa-clock"></i> <span data-i18n="contacts.offices.tashkent.hours">Ish
+                                    vaqti</span>: Пн-Пт, 9:00-18:00</p>
+                        </address>
+                        <div class="office-actions">
+                            <a href="https://maps.google.com/?q=[Адрес офиса в Ташкенте]" class="btn btn-outline"
+                                target="_blank" data-i18n="contacts.offices.tashkent.route">Yo'nalish tuzish</a>
+                        </div>
+                    </div>
+                    <div class="office-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191885.5031373521!2d69.13928674414443!3d41.282737715337345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2z0KLQsNGI0LrQtdC90YI!5e0!3m2!1sru!2suz!4v1682511254532!5m2!1sru!2suz"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="office-card bulgaria">
+                    <div class="office-info">
+                        <h3 data-i18n="contacts.offices.bulgaria.title">Bolgariyada vakolatxona</h3>
+                        <address>
+                            <p><i class="fas fa-map-marker-alt"></i> <span
+                                    data-i18n="contacts.offices.bulgaria.address">Manzil</span>: [Адрес офиса в
+                                Болгарии]</p>
+                            <p><i class="fas fa-phone-alt"></i> <span
+                                    data-i18n="contacts.offices.bulgaria.phone">Telefon</span>: <a
+                                    href="tel:+35987654321">+359 ХХХХХХХ</a></p>
+                            <p><i class="far fa-clock"></i> <span data-i18n="contacts.offices.bulgaria.hours">Ish
+                                    vaqti</span>: Пн-Пт, 9:00-18:00</p>
+                        </address>
+                        <div class="office-actions">
+                            <a href="https://maps.google.com/?q=[Адрес офиса в Болгарии]" class="btn btn-outline"
+                                target="_blank" data-i18n="contacts.offices.bulgaria.route">Yo'nalish tuzish</a>
+                        </div>
+                    </div>
+                    <div class="office-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187704.2568318869!2d23.24049523124999!3d42.69574589999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8682cb317bf5%3A0x400a01269bf5e60!2z0KHQvtGE0LjRjywg0JHQvtC70LPQsNGA0LjRjw!5e0!3m2!1sru!2suz!4v1682511307602!5m2!1sru!2suz"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-header">
+                    <h2 data-i18n="contacts.contact_form.title">Bizga yozing</h2>
+                    <p data-i18n="contacts.contact_form.desc">So'rov qoldiring va mutaxassisimiz siz bilan yaqin vaqt
+                        ichida bog'lanadi</p>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name" data-i18n="contacts.contact_form.name">Ismingiz <span
+                                    class="required">*</span></label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-i18n="contacts.contact_form.phone">Telefon <span
+                                    class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" data-i18n="contacts.contact_form.email">Email <span
+                                class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="topic" data-i18n="contacts.contact_form.topic">Murojaat mavzusi <span
+                                class="required">*</span></label>
+                        <select id="topic" name="topic" required>
+                            <option value="" disabled selected data-i18n="contacts.contact_form.select_topic">Mavzuni
+                                tanlang</option>
+                            <option value="visa" data-i18n="contacts.contact_form.visa_issues">Viza masalalari</option>
+                            <option value="work" data-i18n="contacts.contact_form.employment">Ishga joylashish</option>
+                            <option value="documents" data-i18n="contacts.contact_form.documents">Hujjatlarni
+                                rasmiylashtirish</option>
+                            <option value="insurance" data-i18n="contacts.contact_form.insurance">Tibbiy sug'urta
+                            </option>
+                            <option value="employers" data-i18n="contacts.contact_form.employers">Ish beruvchilar uchun
+                            </option>
+                            <option value="other" data-i18n="contacts.contact_form.other">Boshqa</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" data-i18n="contacts.contact_form.message">Xabar <span
+                                class="required">*</span></label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="agreement" name="agreement" required>
+                        <label for="agreement" data-i18n="contacts.contact_form.agreement">Men shaxsiy ma'lumotlarni
+                            qayta ishlashga roziman <span class="required">*</span></label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" data-i18n="contacts.contact_form.send">Xabarni
+                        yuborish</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2 data-i18n="contacts.faq.title">Tez-tez so'raladigan savollar</h2>
+
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="contacts.faq.question1.q">So'rovlarga qanchalik tez javob berasiz?</h3>
+                        <div class="toggle-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="contacts.faq.question1.a">Biz barcha so'rovlarni 24 soat ichida qayta ishlaymiz.
+                            Odatda javob ancha tezroq keladi — ish vaqtida o'rtacha 1-2 soat ichida. Shoshilinch
+                            savollar uchun messenjerlar yoki telefon aloqasidan foydalanishni tavsiya qilamiz.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="contacts.faq.question2.q">Ofisga oldindan yozilmasdan tashrif buyurish mumkinmi?
+                        </h3>
+                        <div class="toggle-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="contacts.faq.question2.a">Ha, siz ofisimizga ish vaqtida oldindan yozilmasdan
+                            tashrif buyurishingiz mumkin. Biroq, qulay xizmat ko'rsatish va kutishning oldini olish
+                            uchun telefon yoki messenjerlar orqali tashrif vaqtini kelishib olishni tavsiya etamiz.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="contacts.faq.question3.q">Agar ofisga kelolmasam, onlayn maslahat olish mumkinmi?
+                        </h3>
+                        <div class="toggle-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="contacts.faq.question3.a">Ha, biz video aloqa orqali (Zoom, Skype, WhatsApp,
+                            Telegram) onlayn maslahatlar o'tkazamiz. Bu ofisimizga shaxsan tashrif buyura olmaydigan
+                            insonlar uchun qulay variant. Onlayn maslahatga yozilish uchun biz bilan qulay usulda
+                            bog'laning.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="contacts.faq.question4.q">Favqulodda vaziyatda qanday bog'lanish mumkin?</h3>
+                        <div class="toggle-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="contacts.faq.question4.a">Shoshilinch aloqa uchun quyidagi kanallardan
+                            foydalaning: Ishonch telefoni: +998 77 310 55 66 (24/7), Telegram: @yuryorbg ("Shoshilinch"
+                            belgisi bilan), WhatsApp: +998 77 310 55 66 ("Shoshilinch" belgisi bilan). Noish vaqtida
+                            navbatchi mutaxassis bog'lanadi, u favqulodda vaziyatlarda yordam beradi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <!-- Основной контент футера -->
+            <div class="footer-main">
+                <!-- Логотип и описание -->
+                <div class="footer-logo">
+                    <img src="../../IMG/logo.svg" alt="YurYor Логотип">
+                    <p data-i18n="footer.support">YurYor — O'zbekistonlik mehnat migrantlarini Bolgariyada
+                        qo'llab-quvvatlash</p>
+                </div>
+
+                <!-- Меню футера -->
+                <div class="footer-menu">
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.services">Xizmatlar</h4>
+                        <ul>
+                            <li><a href="services-migrants.html" data-i18n="header.for_migrants">Migrantlar uchun</a>
+                            </li>
+                            <li><a href="services-employers.html" data-i18n="header.for_employers">Ish beruvchilar
+                                    uchun</a></li>
+                            <li><a href="services.html" data-i18n="footer.all_services">Barcha xizmatlar</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.about_center">Markaz haqida</h4>
+                        <ul>
+                            <li><a href="about.html" data-i18n="footer.about_us">Biz haqimizda</a></li>
+                            <li><a href="about.html#team-anc" data-i18n="footer.team">Jamoa</a></li>
+                            <li><a href="about.html#partners-anc" data-i18n="footer.partners">Hamkorlar</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.useful_info">Foydali ma'lumotlar</h4>
+                        <ul>
+                            <li><a href="info.html" data-i18n="footer.handbook">Qo'llanma</a></li>
+                            <li><a href="blog.html" data-i18n="footer.blog">Blog</a></li>
+                            <li><a href="info.html#faq" data-i18n="footer.faq">Savol-javob</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Контакты -->
+                <div class="footer-contacts">
+                    <h4 data-i18n="footer.contact_us">Biz bilan bog'laning</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+998 77 310 55 66</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@yuryor.uz</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://t.me/yuryorbg" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://wa.me/message/link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/yuryorbg" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Нижняя часть футера -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p data-i18n="footer.all_rights_reserved">© 2025 YurYor. Barcha huquqlar himoyalangan.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="/privacy-policy" data-i18n="footer.privacy_policy">Maxfiylik siyosati</a>
+                    <a href="/terms-of-service" data-i18n="footer.terms_of_use">Foydalanish shartlari</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Мессенджеры и чат-боты -->
+    <div class="messenger-buttons">
+        <a href="https://t.me/yuryorbot" class="messenger-btn telegram" title="Telegram Bot"><i
+                class="fab fa-telegram"></i></a>
+        <a href="https://wa.me/998773105566" class="messenger-btn whatsapp" title="WhatsApp"><i
+                class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <!-- JavaScript файлы -->
+    <script src="../../JS/i18n.js"></script>
+    <script src="../../JS/main.js"></script>
+    <script src="../../JS/form-validation.js"></script>
+
+</body>
+
+</html>
