@@ -5,7 +5,7 @@ FROM nginx:stable-alpine
 COPY docker/default.conf /etc/nginx/conf.d/default.conf
 
 # Копируем все файлы проекта в директорию, обслуживаемую Nginx
-COPY uzbg /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 
 # Открываем порт 80
 EXPOSE 80
